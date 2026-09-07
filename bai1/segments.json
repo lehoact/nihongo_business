@@ -1,0 +1,1110 @@
+[
+  {
+    "idx": 0,
+    "scene": "場面: 月曜日の朝、営業部で田中課長と鈴木さんがECアプリ開発の進捗ミーティング",
+    "speaker": "田中",
+    "voice": "ja-JP-KeitaNeural",
+    "jp": "おはよう、鈴木さん。朝一からすまないね。ちょっと相談があるんだ。",
+    "jp_phrase": [
+      [
+        10,
+        12
+      ]
+    ],
+    "jp_grammar": [],
+    "tts_text": "おはよう、鈴木さん。朝一からすまないね。ちょっと相談があるんだ。",
+    "vi": "Chào buổi sáng, Suzuki. Xin lỗi vì đầu giờ sáng đã làm phiền. Có việc muốn trao đổi một chút.",
+    "vi_phrase": [
+      [
+        35,
+        47
+      ]
+    ],
+    "vi_grammar": [],
+    "readings": [
+      [
+        "朝一",
+        "あさいち"
+      ]
+    ]
+  },
+  {
+    "idx": 1,
+    "scene": "場面: 月曜日の朝、営業部で田中課長と鈴木さんがECアプリ開発の進捗ミーティング",
+    "speaker": "鈴木",
+    "voice": "ja-JP-NanamiNeural",
+    "jp": "おはようございます。ちょうど、こちらからもご挨拶に伺おうと思っていました。",
+    "jp_phrase": [
+      [
+        22,
+        24
+      ]
+    ],
+    "jp_grammar": [],
+    "tts_text": "おはようございます。ちょうど、こちらからもご挨拶に伺おうと思っていました。",
+    "vi": "Chào buổi sáng ạ. Đúng lúc bên em cũng đang định qua chào hỏi anh ạ.",
+    "vi_phrase": [
+      [
+        53,
+        61
+      ]
+    ],
+    "vi_grammar": [],
+    "readings": [
+      [
+        "挨拶",
+        "あいさつ"
+      ]
+    ]
+  },
+  {
+    "idx": 2,
+    "scene": "場面: 月曜日の朝、営業部で田中課長と鈴木さんがECアプリ開発の進捗ミーティング",
+    "speaker": "田中",
+    "voice": "ja-JP-KeitaNeural",
+    "jp": "新しいECアプリケーションについての開発だけど、今、足踏み状態になっているらしいね。",
+    "jp_phrase": [
+      [
+        5,
+        13
+      ],
+      [
+        26,
+        29
+      ]
+    ],
+    "jp_grammar": [
+      [
+        13,
+        17
+      ]
+    ],
+    "tts_text": "新しいECアプリケーションについての開発だけど、今、足踏み状態になっているらしいね。",
+    "vi": "Về ứng dụng EC mới, việc phát triển hiện đang dậm chân tại chỗ nhỉ.",
+    "vi_phrase": [
+      [
+        3,
+        11
+      ],
+      [
+        46,
+        62
+      ]
+    ],
+    "vi_grammar": [
+      [
+        0,
+        2
+      ]
+    ],
+    "readings": [
+      [
+        "足踏み",
+        "あしぶみ"
+      ]
+    ]
+  },
+  {
+    "idx": 3,
+    "scene": "場面: 月曜日の朝、営業部で田中課長と鈴木さんがECアプリ開発の進捗ミーティング",
+    "speaker": "鈴木",
+    "voice": "ja-JP-NanamiNeural",
+    "jp": "はい。ITベンダーとの相性が悪く、進捗が悪化しているばかりか、他の案件の足も引っ張っている状態です。",
+    "jp_phrase": [
+      [
+        3,
+        5
+      ],
+      [
+        20,
+        22
+      ],
+      [
+        36,
+        43
+      ]
+    ],
+    "jp_grammar": [
+      [
+        26,
+        30
+      ]
+    ],
+    "tts_text": "はい。ITベンダーとの相性が悪く、進捗が悪化しているばかりか、他の案件の足も引っ張っている状態です。",
+    "vi": "Vâng ạ. Do không hợp với vendor IT, không những tiến độ đang trở nên tệ đi, mà còn đang cản trở cả các dự án khác nữa ạ.",
+    "vi_phrase": [
+      [
+        32,
+        34
+      ],
+      [
+        61,
+        74
+      ],
+      [
+        88,
+        95
+      ]
+    ],
+    "vi_grammar": [
+      [
+        36,
+        47
+      ]
+    ],
+    "readings": [
+      [
+        "悪化",
+        "あっか"
+      ],
+      [
+        "足も引っ張って",
+        "あしもひっぱって"
+      ]
+    ]
+  },
+  {
+    "idx": 4,
+    "scene": "場面: 月曜日の朝、営業部で田中課長と鈴木さんがECアプリ開発の進捗ミーティング",
+    "speaker": "田中",
+    "voice": "ja-JP-KeitaNeural",
+    "jp": "予算に応じて、一部の機能をアウトソーシングして、社内負担を圧縮しよう。相見積もりはもう取った?",
+    "jp_phrase": [
+      [
+        13,
+        21
+      ],
+      [
+        29,
+        31
+      ],
+      [
+        35,
+        40
+      ]
+    ],
+    "jp_grammar": [
+      [
+        2,
+        6
+      ]
+    ],
+    "tts_text": "予算に応じて、一部の機能をアウトソーシングして、社内負担を圧縮しよう。あいみつもりはもう取った?",
+    "vi": "Tùy theo ngân sách, hãy thuê ngoài một phần chức năng và giảm bớt gánh nặng nội bộ. Báo giá so sánh nhiều bên đã lấy chưa?",
+    "vi_phrase": [
+      [
+        24,
+        34
+      ],
+      [
+        57,
+        65
+      ],
+      [
+        84,
+        109
+      ]
+    ],
+    "vi_grammar": [
+      [
+        0,
+        8
+      ]
+    ],
+    "readings": [
+      [
+        "圧縮",
+        "あっしゅく"
+      ],
+      [
+        "相見積もり",
+        "あいみつもり"
+      ]
+    ]
+  },
+  {
+    "idx": 5,
+    "scene": "場面: 月曜日の朝、営業部で田中課長と鈴木さんがECアプリ開発の進捗ミーティング",
+    "speaker": "鈴木",
+    "voice": "ja-JP-NanamiNeural",
+    "jp": "はい、予めA社とB社から取っておきました。整理でき次第、宛先を課長にして資料を上げます。",
+    "jp_phrase": [
+      [
+        3,
+        5
+      ],
+      [
+        28,
+        30
+      ],
+      [
+        39,
+        43
+      ]
+    ],
+    "jp_grammar": [
+      [
+        25,
+        27
+      ]
+    ],
+    "tts_text": "はい、予めA社とB社から取っておきました。整理でき次第、宛先を課長にして資料を上げます。",
+    "vi": "Vâng, em đã lấy sẵn từ trước từ công ty A và B rồi ạ. Ngay khi sắp xếp xong, em sẽ để địa chỉ người nhận là anh và trình lên tài liệu.",
+    "vi_phrase": [
+      [
+        20,
+        28
+      ],
+      [
+        86,
+        104
+      ],
+      [
+        115,
+        124
+      ]
+    ],
+    "vi_grammar": [
+      [
+        54,
+        62
+      ]
+    ],
+    "readings": [
+      [
+        "予め",
+        "あらかじめ"
+      ],
+      [
+        "宛先",
+        "あてさき"
+      ],
+      [
+        "上げます",
+        "あげます"
+      ]
+    ]
+  },
+  {
+    "idx": 6,
+    "scene": "場面: 月曜日の朝、営業部で田中課長と鈴木さんがECアプリ開発の進捗ミーティング",
+    "speaker": "田中",
+    "voice": "ja-JP-KeitaNeural",
+    "jp": "頭が切れるね。ただ、正直、今の見込みはちょっと甘いと思う。このままだと足が出るよ。",
+    "jp_phrase": [
+      [
+        0,
+        5
+      ],
+      [
+        23,
+        25
+      ],
+      [
+        35,
+        39
+      ]
+    ],
+    "jp_grammar": [],
+    "tts_text": "頭が切れるね。ただ、正直、今の見込みはちょっと甘いと思う。このままだと足が出るよ。",
+    "vi": "Đầu óc nhạy bén ghê. Nhưng thẳng thắn thì dự tính hiện tại hơi chủ quan/xem nhẹ. Cứ thế này sẽ vượt ngân sách đấy.",
+    "vi_phrase": [
+      [
+        0,
+        15
+      ],
+      [
+        63,
+        79
+      ],
+      [
+        95,
+        109
+      ]
+    ],
+    "vi_grammar": [],
+    "readings": [
+      [
+        "頭が切れる",
+        "あたまがきれる"
+      ],
+      [
+        "甘い",
+        "あまい"
+      ],
+      [
+        "足が出る",
+        "あしがでる"
+      ]
+    ]
+  },
+  {
+    "idx": 7,
+    "scene": "場面: 月曜日の朝、営業部で田中課長と鈴木さんがECアプリ開発の進捗ミーティング",
+    "speaker": "鈴木",
+    "voice": "ja-JP-NanamiNeural",
+    "jp": "おっしゃる通りです。今月は赤字が見込まれ、追加のコスト削減を検討せざるを得ない状況で、正直、頭が痛いです。",
+    "jp_phrase": [
+      [
+        13,
+        15
+      ],
+      [
+        46,
+        50
+      ]
+    ],
+    "jp_grammar": [
+      [
+        32,
+        39
+      ]
+    ],
+    "tts_text": "おっしゃる通りです。今月は赤字が見込まれ、追加のコスト削減を検討せざるを得ない状況で、正直、頭が痛いです。",
+    "vi": "Đúng như anh nói ạ. Tháng này dự kiến bị lỗ, không thể không tính đến việc cắt giảm chi phí bổ sung, thật sự em đau đầu.",
+    "vi_phrase": [
+      [
+        41,
+        43
+      ],
+      [
+        112,
+        119
+      ]
+    ],
+    "vi_grammar": [
+      [
+        45,
+        60
+      ]
+    ],
+    "readings": [
+      [
+        "赤字",
+        "あかじ"
+      ],
+      [
+        "頭が痛い",
+        "あたまがいたい"
+      ]
+    ]
+  },
+  {
+    "idx": 8,
+    "scene": "場面: 月曜日の朝、営業部で田中課長と鈴木さんがECアプリ開発の進捗ミーティング",
+    "speaker": "田中",
+    "voice": "ja-JP-KeitaNeural",
+    "jp": "問題点の洗い出しを行った上で、対策を考えよう。青写真の段階でお客様に見せたら、どう反応するかな。",
+    "jp_phrase": [
+      [
+        4,
+        8
+      ],
+      [
+        23,
+        26
+      ]
+    ],
+    "jp_grammar": [
+      [
+        11,
+        14
+      ]
+    ],
+    "tts_text": "問題点の洗い出しを行った上で、対策を考えよう。青写真の段階でお客様に見せたら、どう反応するかな。",
+    "vi": "Sau khi tiến hành rà soát các vấn đề, hãy nghĩ đối sách. Nếu cho khách xem ở giai đoạn dự thảo thì họ phản ứng ra sao nhỉ.",
+    "vi_phrase": [
+      [
+        18,
+        25
+      ],
+      [
+        87,
+        94
+      ]
+    ],
+    "vi_grammar": [
+      [
+        0,
+        7
+      ]
+    ],
+    "readings": [
+      [
+        "洗い出し",
+        "あらいだし"
+      ],
+      [
+        "青写真",
+        "あおじゃしん"
+      ]
+    ]
+  },
+  {
+    "idx": 9,
+    "scene": "場面: 月曜日の朝、営業部で田中課長と鈴木さんがECアプリ開発の進捗ミーティング",
+    "speaker": "鈴木",
+    "voice": "ja-JP-NanamiNeural",
+    "jp": "そうですね。宛名を先方の担当者にして、事前にメールアドレスへ資料をお送りしましょうか。",
+    "jp_phrase": [
+      [
+        6,
+        8
+      ],
+      [
+        25,
+        29
+      ]
+    ],
+    "jp_grammar": [],
+    "tts_text": "そうですね。宛名を先方の担当者にして、事前にメールアドレスへ資料をお送りしましょうか。",
+    "vi": "Vâng ạ. Hay để tên người nhận là người phụ trách bên khách, gửi tài liệu qua địa chỉ email trước ạ?",
+    "vi_phrase": [
+      [
+        15,
+        29
+      ],
+      [
+        77,
+        90
+      ]
+    ],
+    "vi_grammar": [],
+    "readings": [
+      [
+        "宛名",
+        "あてな"
+      ]
+    ]
+  },
+  {
+    "idx": 10,
+    "scene": "場面: 月曜日の朝、営業部で田中課長と鈴木さんがECアプリ開発の進捗ミーティング",
+    "speaker": "田中",
+    "voice": "ja-JP-KeitaNeural",
+    "jp": "それがいい。アポを取って直接足を運ぶに越したことはないね。挨拶も兼ねよう。",
+    "jp_phrase": [
+      [
+        6,
+        8
+      ],
+      [
+        14,
+        18
+      ]
+    ],
+    "jp_grammar": [
+      [
+        18,
+        27
+      ]
+    ],
+    "tts_text": "それがいい。アポを取って直接足を運ぶに越したことはないね。挨拶も兼ねよう。",
+    "vi": "Được đấy. Không gì bằng lấy cuộc hẹn và trực tiếp cất công qua bên đó. Kết hợp chào hỏi luôn.",
+    "vi_phrase": [
+      [
+        28,
+        36
+      ],
+      [
+        50,
+        69
+      ]
+    ],
+    "vi_grammar": [
+      [
+        10,
+        23
+      ]
+    ],
+    "readings": [
+      [
+        "足を運ぶ",
+        "あしをはこぶ"
+      ]
+    ]
+  },
+  {
+    "idx": 11,
+    "scene": "場面: 月曜日の朝、営業部で田中課長と鈴木さんがECアプリ開発の進捗ミーティング",
+    "speaker": "鈴木",
+    "voice": "ja-JP-NanamiNeural",
+    "jp": "承知しました。競合のA社は一日当たりのアクセス数が非常に多く、国内に限らず海外からもアクセスがあり、うちはまだ足元にも及ばない状況です。",
+    "jp_phrase": [
+      [
+        15,
+        18
+      ],
+      [
+        19,
+        23
+      ],
+      [
+        55,
+        63
+      ]
+    ],
+    "jp_grammar": [
+      [
+        33,
+        37
+      ]
+    ],
+    "tts_text": "承知しました。競合のA社は一日当たりのアクセス数が非常に多く、国内に限らず海外からもアクセスがあり、うちはまだ足元にも及ばない状況です。",
+    "vi": "Em rõ ạ. Công ty A đối thủ có số lượt truy cập tính trên mỗi ngày rất cao, không chỉ trong nước mà còn có truy cập từ nước ngoài, mình vẫn chưa thể sánh bằng.",
+    "vi_phrase": [
+      [
+        38,
+        46
+      ],
+      [
+        47,
+        60
+      ],
+      [
+        139,
+        157
+      ]
+    ],
+    "vi_grammar": [
+      [
+        75,
+        84
+      ]
+    ],
+    "readings": [
+      [
+        "当たり",
+        "あたり"
+      ],
+      [
+        "足元にも及ばない",
+        "あしもとにもおよばない"
+      ]
+    ]
+  },
+  {
+    "idx": 12,
+    "scene": "場面: 月曜日の朝、営業部で田中課長と鈴木さんがECアプリ開発の進捗ミーティング",
+    "speaker": "田中",
+    "voice": "ja-JP-KeitaNeural",
+    "jp": "対策しないと、売り上げが頭打ちになりかねないから、購買意欲をあおるようなアイコンやUIのアレンジも必要だね。",
+    "jp_phrase": [
+      [
+        12,
+        15
+      ],
+      [
+        30,
+        33
+      ],
+      [
+        36,
+        40
+      ],
+      [
+        44,
+        48
+      ]
+    ],
+    "jp_grammar": [
+      [
+        18,
+        22
+      ]
+    ],
+    "tts_text": "対策しないと、売り上げが頭打ちになりかねないから、購買意欲をあおるようなアイコンやUIのアレンジも必要だね。",
+    "vi": "Nếu không có đối sách, doanh số có thể bị chạm ngưỡng tối đa, nên cũng cần biểu tượng và điều chỉnh UI theo hướng kích thích nhu cầu mua hàng.",
+    "vi_phrase": [
+      [
+        42,
+        60
+      ],
+      [
+        75,
+        85
+      ],
+      [
+        89,
+        99
+      ],
+      [
+        114,
+        124
+      ]
+    ],
+    "vi_grammar": [
+      [
+        32,
+        38
+      ]
+    ],
+    "readings": [
+      [
+        "頭打ち",
+        "あたまうち"
+      ]
+    ]
+  },
+  {
+    "idx": 13,
+    "scene": "場面: 月曜日の朝、営業部で田中課長と鈴木さんがECアプリ開発の進捗ミーティング",
+    "speaker": "鈴木",
+    "voice": "ja-JP-NanamiNeural",
+    "jp": "はい。若年層に強くアピールできるデザインにしたいものの、遊びを入れすぎると相手に軽く見られる恐れもあります。",
+    "jp_phrase": [
+      [
+        9,
+        13
+      ],
+      [
+        28,
+        30
+      ],
+      [
+        37,
+        39
+      ]
+    ],
+    "jp_grammar": [
+      [
+        24,
+        27
+      ]
+    ],
+    "tts_text": "はい。若年層に強くアピールできるデザインにしたいものの、遊びを入れすぎると相手に軽く見られる恐れもあります。",
+    "vi": "Vâng ạ. Mặc dù em muốn thiết kế có thể thu hút mạnh giới trẻ, nhưng nếu cho quá nhiều yếu tố phô trương thì có thể bị đối phương/khách đánh giá không nghiêm túc.",
+    "vi_phrase": [
+      [
+        39,
+        51
+      ],
+      [
+        86,
+        103
+      ],
+      [
+        118,
+        134
+      ]
+    ],
+    "vi_grammar": [
+      [
+        8,
+        14
+      ]
+    ],
+    "readings": [
+      [
+        "遊び",
+        "あそび"
+      ],
+      [
+        "相手",
+        "あいて"
+      ]
+    ]
+  },
+  {
+    "idx": 14,
+    "scene": "場面: 月曜日の朝、営業部で田中課長と鈴木さんがECアプリ開発の進捗ミーティング",
+    "speaker": "田中",
+    "voice": "ja-JP-KeitaNeural",
+    "jp": "揚げ足を取られないよう、細部まで洗い出して、しっかり詰めよう。IDとパスワードのセキュリティも改めて確認して。",
+    "jp_phrase": [
+      [
+        0,
+        7
+      ],
+      [
+        16,
+        21
+      ],
+      [
+        31,
+        33
+      ],
+      [
+        47,
+        50
+      ]
+    ],
+    "jp_grammar": [],
+    "tts_text": "揚げ足を取られないよう、細部まで洗い出して、しっかり詰めよう。IDとパスワードのセキュリティも改めて確認して。",
+    "vi": "Để không bị bới lông tìm vết, hãy rà soát hết đến từng chi tiết và chốt kỹ. Bảo mật ID và mật khẩu cũng hãy kiểm tra lại một lần nữa.",
+    "vi_phrase": [
+      [
+        12,
+        28
+      ],
+      [
+        34,
+        45
+      ],
+      [
+        84,
+        86
+      ],
+      [
+        117,
+        132
+      ]
+    ],
+    "vi_grammar": [],
+    "readings": [
+      [
+        "揚げ足を取られ",
+        "あげあしをとられ"
+      ],
+      [
+        "洗い出して",
+        "あらいだして"
+      ],
+      [
+        "改めて",
+        "あらためて"
+      ]
+    ]
+  },
+  {
+    "idx": 15,
+    "scene": "場面: 月曜日の朝、営業部で田中課長と鈴木さんがECアプリ開発の進捗ミーティング",
+    "speaker": "鈴木",
+    "voice": "ja-JP-NanamiNeural",
+    "jp": "分かりました。景気のあおりで消費が冷え込んでいるので、粗利益を確保するのは大変ですが、諦めるわけにはいきません。頑張ります。",
+    "jp_phrase": [
+      [
+        10,
+        13
+      ],
+      [
+        27,
+        30
+      ]
+    ],
+    "jp_grammar": [
+      [
+        46,
+        55
+      ]
+    ],
+    "tts_text": "分かりました。景気のあおりで消費が冷え込んでいるので、粗利益を確保するのは大変ですが、諦めるわけにはいきません。頑張ります。",
+    "vi": "Em rõ ạ. Do ảnh hưởng của tình hình kinh tế, tiêu dùng đang chững lại nên việc đảm bảo lợi nhuận gộp rất khó, nhưng không thể bỏ cuộc được. Em sẽ cố gắng.",
+    "vi_phrase": [
+      [
+        12,
+        21
+      ],
+      [
+        87,
+        100
+      ]
+    ],
+    "vi_grammar": [
+      [
+        116,
+        125
+      ]
+    ],
+    "readings": [
+      [
+        "粗利益",
+        "あらりえき"
+      ]
+    ]
+  },
+  {
+    "idx": 16,
+    "scene": "場面: 月曜日の朝、営業部で田中課長と鈴木さんがECアプリ開発の進捗ミーティング",
+    "speaker": "田中",
+    "voice": "ja-JP-KeitaNeural",
+    "jp": "商いの世界は厳しいからね。でも、他人を当てにしないで、お客様に対して自分でアクションを起こす姿勢が大事だ。",
+    "jp_phrase": [
+      [
+        0,
+        2
+      ],
+      [
+        19,
+        22
+      ],
+      [
+        37,
+        42
+      ]
+    ],
+    "jp_grammar": [
+      [
+        30,
+        34
+      ]
+    ],
+    "tts_text": "商いの世界は厳しいからね。でも、他人を当てにしないで、お客様に対して自分でアクションを起こす姿勢が大事だ。",
+    "vi": "Thế giới buôn bán/kinh doanh khắc nghiệt mà. Nhưng đừng trông cậy vào người khác, thái độ tự mình hành động đối với khách hàng mới quan trọng.",
+    "vi_phrase": [
+      [
+        9,
+        28
+      ],
+      [
+        56,
+        65
+      ],
+      [
+        98,
+        107
+      ]
+    ],
+    "vi_grammar": [
+      [
+        108,
+        115
+      ]
+    ],
+    "readings": [
+      [
+        "商い",
+        "あきない"
+      ],
+      [
+        "当てに",
+        "あてに"
+      ]
+    ]
+  },
+  {
+    "idx": 17,
+    "scene": "場面: 月曜日の朝、営業部で田中課長と鈴木さんがECアプリ開発の進捗ミーティング",
+    "speaker": "鈴木",
+    "voice": "ja-JP-NanamiNeural",
+    "jp": "はい。関連する社内規定も、この機会に改める必要があるかもしれません。",
+    "jp_phrase": [
+      [
+        18,
+        21
+      ]
+    ],
+    "jp_grammar": [],
+    "tts_text": "はい。関連する社内規定も、この機会に改める必要があるかもしれません。",
+    "vi": "Vâng ạ. Cả quy định nội bộ liên quan cũng có thể cần phải xem xét lại/sửa đổi nhân dịp này.",
+    "vi_phrase": [
+      [
+        58,
+        77
+      ]
+    ],
+    "vi_grammar": [],
+    "readings": [
+      [
+        "改める",
+        "あらためる"
+      ]
+    ]
+  },
+  {
+    "idx": 18,
+    "scene": "場面: 月曜日の朝、営業部で田中課長と鈴木さんがECアプリ開発の進捗ミーティング",
+    "speaker": "田中",
+    "voice": "ja-JP-KeitaNeural",
+    "jp": "そうだね。それから、先週投入したアウトレット向けの商品はどう?",
+    "jp_phrase": [
+      [
+        16,
+        22
+      ]
+    ],
+    "jp_grammar": [
+      [
+        22,
+        25
+      ]
+    ],
+    "tts_text": "そうだね。それから、先週投入したアウトレット向けの商品はどう?",
+    "vi": "Đúng thế. Còn nữa, sản phẩm dành cho kênh outlet đã tung ra tuần trước thì sao?",
+    "vi_phrase": [
+      [
+        42,
+        48
+      ]
+    ],
+    "vi_grammar": [
+      [
+        28,
+        36
+      ]
+    ],
+    "readings": []
+  },
+  {
+    "idx": 19,
+    "scene": "場面: 月曜日の朝、営業部で田中課長と鈴木さんがECアプリ開発の進捗ミーティング",
+    "speaker": "鈴木",
+    "voice": "ja-JP-NanamiNeural",
+    "jp": "売れ行きはアバウトに言うとまずまずです。SNSを通じての宣伝も効果があります。ただ、注文分のサンプルはまだ上がってきていません。改めて数字をまとめてご報告します。",
+    "jp_phrase": [
+      [
+        5,
+        9
+      ],
+      [
+        53,
+        57
+      ]
+    ],
+    "jp_grammar": [
+      [
+        23,
+        27
+      ]
+    ],
+    "tts_text": "売れ行きはアバウトに言うとまずまずです。SNSを通じての宣伝も効果があります。ただ、注文分のサンプルはまだ上がってきていません。改めて数字をまとめてご報告します。",
+    "vi": "Doanh số nói áng chừng thì tạm ổn ạ. Quảng cáo thông qua SNS cũng có hiệu quả. Tuy nhiên sample của lô đặt hàng vẫn chưa được hoàn thành. Em sẽ tổng hợp lại số liệu và báo cáo lại ạ.",
+    "vi_phrase": [
+      [
+        13,
+        22
+      ],
+      [
+        116,
+        136
+      ]
+    ],
+    "vi_grammar": [
+      [
+        47,
+        56
+      ]
+    ],
+    "readings": [
+      [
+        "上がって",
+        "あがって"
+      ]
+    ]
+  },
+  {
+    "idx": 20,
+    "scene": "場面: 月曜日の朝、営業部で田中課長と鈴木さんがECアプリ開発の進捗ミーティング",
+    "speaker": "田中",
+    "voice": "ja-JP-KeitaNeural",
+    "jp": "ありがとう。ところで、来月の会食の勘定は、いつも通り頭割りでいい?",
+    "jp_phrase": [
+      [
+        26,
+        29
+      ]
+    ],
+    "jp_grammar": [],
+    "tts_text": "ありがとう。ところで、来月の会食の勘定は、いつも通り頭割りでいい?",
+    "vi": "Cảm ơn. Nhân tiện, tiền bữa liên hoan tháng sau, chia đều theo đầu người như mọi khi được không?",
+    "vi_phrase": [
+      [
+        49,
+        72
+      ]
+    ],
+    "vi_grammar": [],
+    "readings": [
+      [
+        "頭割り",
+        "あたまわり"
+      ]
+    ]
+  },
+  {
+    "idx": 21,
+    "scene": "場面: 月曜日の朝、営業部で田中課長と鈴木さんがECアプリ開発の進捗ミーティング",
+    "speaker": "鈴木",
+    "voice": "ja-JP-NanamiNeural",
+    "jp": "もちろんです。あ、そういえば、田中課長宛に荷物が届いていましたよ。",
+    "jp_phrase": [
+      [
+        19,
+        20
+      ]
+    ],
+    "jp_grammar": [],
+    "tts_text": "もちろんです。あ、そういえば、田中課長宛に荷物が届いていましたよ。",
+    "vi": "Tất nhiên rồi ạ. À, em nhớ ra, có bưu kiện gửi đến anh Tanaka đấy ạ.",
+    "vi_phrase": [
+      [
+        43,
+        50
+      ]
+    ],
+    "vi_grammar": [],
+    "readings": [
+      [
+        "宛",
+        "あて"
+      ]
+    ]
+  },
+  {
+    "idx": 22,
+    "scene": "場面: 月曜日の朝、営業部で田中課長と鈴木さんがECアプリ開発の進捗ミーティング",
+    "speaker": "田中",
+    "voice": "ja-JP-KeitaNeural",
+    "jp": "あ、ありがとう。プロジェクトの進捗に伴って、次のアクションを整理しよう。今日中に改めて資料を上げてくれる?",
+    "jp_phrase": [],
+    "jp_grammar": [
+      [
+        17,
+        21
+      ]
+    ],
+    "tts_text": "あ、ありがとう。プロジェクトの進捗に伴って、次のアクションを整理しよう。今日中に改めて資料を上げてくれる?",
+    "vi": "À cảm ơn. Cùng với tiến độ dự án, mình sắp xếp lại hành động tiếp theo nhé. Trong hôm nay em nộp lại tài liệu được không?",
+    "vi_phrase": [],
+    "vi_grammar": [
+      [
+        10,
+        18
+      ]
+    ],
+    "readings": []
+  },
+  {
+    "idx": 23,
+    "scene": "場面: 月曜日の朝、営業部で田中課長と鈴木さんがECアプリ開発の進捗ミーティング",
+    "speaker": "鈴木",
+    "voice": "ja-JP-NanamiNeural",
+    "jp": "はい、必ず上げます。あ、あと、住宅ローンの頭金の件で相談させてもらいたいのですが、後ほどお時間いいですか?",
+    "jp_phrase": [
+      [
+        21,
+        23
+      ]
+    ],
+    "jp_grammar": [],
+    "tts_text": "はい、必ず上げます。あ、あと、住宅ローンの頭金の件で相談させてもらいたいのですが、後ほどお時間いいですか?",
+    "vi": "Vâng ạ, em nhất định sẽ nộp. À còn nữa, em muốn hỏi anh về vụ tiền trả trước của khoản vay mua nhà, sau này anh có thời gian được không ạ?",
+    "vi_phrase": [
+      [
+        62,
+        76
+      ]
+    ],
+    "vi_grammar": [],
+    "readings": [
+      [
+        "頭金",
+        "あたまきん"
+      ]
+    ]
+  },
+  {
+    "idx": 24,
+    "scene": "場面: 月曜日の朝、営業部で田中課長と鈴木さんがECアプリ開発の進捗ミーティング",
+    "speaker": "田中",
+    "voice": "ja-JP-KeitaNeural",
+    "jp": "いいよ。株の商いみたいに簡単じゃないけど、相談に乗るよ。",
+    "jp_phrase": [],
+    "jp_grammar": [],
+    "tts_text": "いいよ。株の商いみたいに簡単じゃないけど、相談に乗るよ。",
+    "vi": "Được thôi. Không đơn giản như mua bán cổ phiếu đâu nhưng anh sẽ tư vấn cho.",
+    "vi_phrase": [],
+    "vi_grammar": [],
+    "readings": []
+  }
+]
