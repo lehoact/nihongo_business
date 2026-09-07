@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BJT Kaiwa Bài 1 - Từ vựng (50) + Ngữ pháp (15)</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f7f3e8;
+      --card: #fffdf8;
+      --ink: #17233c;
+      --muted: #687083;
+      --line: #e7dcc4;
+      --accent: #1f6feb;
+      --accent-soft: #eaf2ff;
+      --phrase: #c62828;
+      --phrase-bg: #fff2f2;
+      --grammar: #1a73e8;
+      --grammar-bg: #e8f0fe;
+      --shadow: 0 12px 28px rgba(24, 34, 60, 0.12);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: linear-gradient(180deg, #fff8df 0%, var(--bg) 38%, #eef5ff 100%);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans JP", "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.7;
+    }
+
+    main {
+      width: min(980px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 32px 0 56px;
+    }
+
+    header {
+      background: rgba(255, 253, 248, 0.86);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      box-shadow: var(--shadow);
+      padding: 28px;
+      position: sticky;
+      top: 16px;
+      z-index: 10;
+      backdrop-filter: blur(14px);
+    }
+
+    h1 { font-size: 25px; line-height: 1.15; margin: 0 0 10px; letter-spacing: 0.02em; }
+    .subtitle { color: var(--muted); margin: 0 0 22px; font-size: 16px; }
+
+    .legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+      margin: 0 0 14px;
+      font-size: 14px;
+      color: var(--muted);
+    }
+    .legend .swatch { display: inline-block; padding: 2px 8px; border-radius: 6px; font-weight: 800; margin-right: 4px; }
+
+    .controls { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+
+    button {
+      border: 0;
+      border-radius: 999px;
+      background: var(--accent);
+      color: white;
+      cursor: pointer;
+      font-weight: 700;
+      padding: 11px 18px;
+      box-shadow: 0 7px 16px rgba(31, 111, 235, 0.22);
+    }
+    button.secondary {
+      background: var(--accent-soft);
+      color: var(--accent);
+      box-shadow: none;
+      border: 1px solid #cfe0ff;
+    }
+
+    section {
+      margin-top: 22px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .scene-title {
+      padding: 18px 24px;
+      background: #fff1c2;
+      border-bottom: 1px solid var(--line);
+      font-weight: 800;
+      color: #3a2b00;
+    }
+
+    .dialogue { padding: 10px 0; }
+
+    .line {
+      display: grid;
+      grid-template-columns: 112px 1fr;
+      gap: 18px;
+      padding: 18px 24px;
+      border-bottom: 1px solid #f0e8d8;
+    }
+    .line:last-child { border-bottom: 0; }
+
+    .speaker { color: var(--muted); font-weight: 800; }
+    .jp { font-size: clamp(20px, 3vw, 20px); font-weight: 650; letter-spacing: 0.01em; }
+    .vi { margin-top: 8px; color: #394150; font-size: 16px; }
+
+    .phrase, .vi-phrase {
+      color: var(--phrase);
+      font-weight: 850;
+      background: var(--phrase-bg);
+      border-radius: 8px;
+      padding: 0 3px;
+    }
+
+    .grammar, .vi-grammar {
+      color: var(--grammar);
+      font-weight: 850;
+      background: var(--grammar-bg);
+      border-radius: 8px;
+      padding: 0 3px;
+    }
+
+    ruby { ruby-position: over; }
+    rt { color: #596579; font-size: 0.48em; font-weight: 600; }
+
+    body.hide-ruby rt,
+    body.hide-translation .vi { display: none; }
+
+    .note { margin-top: 22px; color: var(--muted); font-size: 14px; text-align: center; }
+
+    @media (max-width: 700px) {
+      main { width: min(100% - 20px, 980px); padding-top: 16px; }
+      header, section { border-radius: 18px; }
+      header { position: static; padding: 20px; }
+      .line { grid-template-columns: 1fr; gap: 4px; padding: 16px 18px; }
+    }
+
+    @media print {
+      body { background: white; }
+      main { width: 100%; padding: 0; }
+      header { position: static; box-shadow: none; border-radius: 0; border: 0; border-bottom: 1px solid var(--line); }
+      .controls, .legend { display: none; }
+      section { box-shadow: none; border-radius: 0; margin-top: 0; }
+      .line { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body class="hide-ruby">
+  <main>
+    <header>
+      <h1>BJT Kaiwa - Bài 1 (Từ vựng 50 + Ngữ pháp 15)</h1>
+      <p class="subtitle">Hội thoại buổi họp sáng đầu tuần bàn về dự án EC app mới, có lồng ghép 15 mẫu ngữ pháp J2~J3 thường gặp.</p>
+      <div class="legend">
+        <span><span class="swatch phrase">từ vựng</span> Từ vựng bài 1</span>
+        <span><span class="swatch grammar">ngữ pháp</span> Ngữ pháp BJT</span>
+      </div>
+      <div class="controls">
+        <button id="toggleRuby" type="button">Hiện ルビ</button>
+        <button id="toggleTranslation" class="secondary" type="button">Ẩn dịch</button>
+        <button id="exportPdf" class="secondary" type="button">Xuất PDF</button>
+      </div>
+    </header>
+
+    <section aria-label="Bai hoi thoai">
+      <div class="scene-title"><ruby>場面<rt>ばめん</rt></ruby>: <ruby>月曜日<rt>げつようび</rt></ruby>の<ruby>朝<rt>あさ</rt></ruby>、<ruby>営業部<rt>えいぎょうぶ</rt></ruby>で<ruby>田中<rt>たなか</rt></ruby><ruby>課長<rt>かちょう</rt></ruby>と<ruby>鈴木<rt>すずき</rt></ruby>さんがECアプリ<ruby>開発<rt>かいはつ</rt></ruby>の<ruby>進捗<rt>しんちょく</rt></ruby>ミーティング</div>
+      <div class="dialogue">
+
+        <div class="line">
+          <div class="speaker"><ruby>田中<rt>たなか</rt></ruby></div>
+          <div>
+            <div class="jp">おはよう、<ruby>鈴木<rt>すずき</rt></ruby>さん。<span class="phrase"><ruby>朝一<rt>あさいち</rt></ruby></span>からすまないね。ちょっと<ruby>相談<rt>そうだん</rt></ruby>があるんだ。</div>
+            <div class="vi">Chào buổi sáng, Suzuki. Xin lỗi vì <span class="vi-phrase">đầu giờ sáng</span> đã làm phiền. Có việc muốn trao đổi một chút.</div>
+          </div>
+        </div>
+
+        <div class="line">
+          <div class="speaker"><ruby>鈴木<rt>すずき</rt></ruby></div>
+          <div>
+            <div class="jp">おはようございます。ちょうど、こちらからもご<span class="phrase"><ruby>挨拶<rt>あいさつ</rt></ruby></span>に<ruby>伺<rt>うかが</rt></ruby>おうと<ruby>思<rt>おも</rt></ruby>っていました。</div>
+            <div class="vi">Chào buổi sáng ạ. Đúng lúc bên em cũng đang định qua <span class="vi-phrase">chào hỏi</span> anh ạ.</div>
+          </div>
+        </div>
+
+        <div class="line">
+          <div class="speaker"><ruby>田中<rt>たなか</rt></ruby></div>
+          <div>
+            <div class="jp"><ruby>新<rt>あたら</rt></ruby>しいEC<span class="phrase">アプリケーション</span><span class="grammar">について</span>の<ruby>開発<rt>かいはつ</rt></ruby>だけど、<ruby>今<rt>いま</rt></ruby>、<span class="phrase"><ruby>足踏<rt>あしぶ</rt></ruby>み</span><ruby>状態<rt>じょうたい</rt></ruby>になっているらしいね。</div>
+            <div class="vi"><span class="vi-grammar">Về</span> <span class="vi-phrase">ứng dụng</span> EC mới, việc phát triển hiện đang <span class="vi-phrase">dậm chân tại chỗ</span> nhỉ.</div>
+          </div>
+        </div>
+
+        <div class="line">
+          <div class="speaker"><ruby>鈴木<rt>すずき</rt></ruby></div>
+          <div>
+            <div class="jp">はい。<span class="phrase">IT</span>ベンダーとの<ruby>相性<rt>あいしょう</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>く、<ruby>進捗<rt>しんちょく</rt></ruby>が<span class="phrase"><ruby>悪化<rt>あっか</rt></ruby></span>している<span class="grammar">ばかりか</span>、<ruby>他<rt>ほか</rt></ruby>の<ruby>案件<rt>あんけん</rt></ruby>の<span class="phrase"><ruby>足<rt>あし</rt></ruby>も<ruby>引<rt>ひ</rt></ruby>っ<ruby>張<rt>ぱ</rt></ruby>って</span>いる<ruby>状態<rt>じょうたい</rt></ruby>です。</div>
+            <div class="vi">Vâng ạ. Do không hợp với vendor <span class="vi-phrase">IT</span>, <span class="vi-grammar">không những</span> tiến độ đang <span class="vi-phrase">trở nên tệ đi</span>, mà còn đang <span class="vi-phrase">cản trở</span> cả các dự án khác nữa ạ.</div>
+          </div>
+        </div>
+
+        <div class="line">
+          <div class="speaker"><ruby>田中<rt>たなか</rt></ruby></div>
+          <div>
+            <div class="jp"><ruby>予算<rt>よさん</rt></ruby><span class="grammar">に<ruby>応<rt>おう</rt></ruby>じて</span>、<ruby>一部<rt>いちぶ</rt></ruby>の<ruby>機能<rt>きのう</rt></ruby>を<span class="phrase">アウトソーシング</span>して、<ruby>社内<rt>しゃない</rt></ruby><ruby>負担<rt>ふたん</rt></ruby>を<span class="phrase"><ruby>圧縮<rt>あっしゅく</rt></ruby></span>しよう。<span class="phrase"><ruby>相見積<rt>あいみつ</rt></ruby>もり</span>はもう<ruby>取<rt>と</rt></ruby>った?</div>
+            <div class="vi"><span class="vi-grammar">Tùy theo</span> ngân sách, hãy <span class="vi-phrase">thuê ngoài</span> một phần chức năng và <span class="vi-phrase">giảm bớt</span> gánh nặng nội bộ. <span class="vi-phrase">Báo giá so sánh nhiều bên</span> đã lấy chưa?</div>
+          </div>
+        </div>
+
+        <div class="line">
+          <div class="speaker"><ruby>鈴木<rt>すずき</rt></ruby></div>
+          <div>
+            <div class="jp">はい、<span class="phrase"><ruby>予<rt>あらかじ</rt></ruby>め</span>A<ruby>社<rt>しゃ</rt></ruby>とB<ruby>社<rt>しゃ</rt></ruby>から<ruby>取<rt>と</rt></ruby>っておきました。<ruby>整理<rt>せいり</rt></ruby>でき<span class="grammar"><ruby>次第<rt>しだい</rt></ruby></span>、<span class="phrase"><ruby>宛先<rt>あてさき</rt></ruby></span>を<ruby>課長<rt>かちょう</rt></ruby>にして<ruby>資料<rt>しりょう</rt></ruby>を<span class="phrase"><ruby>上<rt>あ</rt></ruby>げます</span>。</div>
+            <div class="vi">Vâng, em đã lấy sẵn <span class="vi-phrase">từ trước</span> từ công ty A và B rồi ạ. <span class="vi-grammar">Ngay khi</span> sắp xếp xong, em sẽ để <span class="vi-phrase">địa chỉ người nhận</span> là anh và <span class="vi-phrase">trình lên</span> tài liệu.</div>
+          </div>
+        </div>
+
+        <div class="line">
+          <div class="speaker"><ruby>田中<rt>たなか</rt></ruby></div>
+          <div>
+            <div class="jp"><span class="phrase"><ruby>頭<rt>あたま</rt></ruby>が<ruby>切<rt>き</rt></ruby>れる</span>ね。ただ、<ruby>正直<rt>しょうじき</rt></ruby>、<ruby>今<rt>いま</rt></ruby>の<ruby>見込<rt>みこ</rt></ruby>みはちょっと<span class="phrase"><ruby>甘<rt>あま</rt></ruby>い</span>と<ruby>思<rt>おも</rt></ruby>う。このままだと<span class="phrase"><ruby>足<rt>あし</rt></ruby>が<ruby>出<rt>で</rt></ruby>る</span>よ。</div>
+            <div class="vi"><span class="vi-phrase">Đầu óc nhạy bén</span> ghê. Nhưng thẳng thắn thì dự tính hiện tại hơi <span class="vi-phrase">chủ quan/xem nhẹ</span>. Cứ thế này sẽ <span class="vi-phrase">vượt ngân sách</span> đấy.</div>
+          </div>
+        </div>
+
+        <div class="line">
+          <div class="speaker"><ruby>鈴木<rt>すずき</rt></ruby></div>
+          <div>
+            <div class="jp">おっしゃる<ruby>通<rt>とお</rt></ruby>りです。<ruby>今月<rt>こんげつ</rt></ruby>は<span class="phrase"><ruby>赤字<rt>あかじ</rt></ruby></span>が<ruby>見込<rt>みこ</rt></ruby>まれ、<ruby>追加<rt>ついか</rt></ruby>のコスト<ruby>削減<rt>さくげん</rt></ruby>を<ruby>検討<rt>けんとう</rt></ruby><span class="grammar">せざるを<ruby>得<rt>え</rt></ruby>ない</span><ruby>状況<rt>じょうきょう</rt></ruby>で、<ruby>正直<rt>しょうじき</rt></ruby>、<span class="phrase"><ruby>頭<rt>あたま</rt></ruby>が<ruby>痛<rt>いた</rt></ruby>い</span>です。</div>
+            <div class="vi">Đúng như anh nói ạ. Tháng này dự kiến bị <span class="vi-phrase">lỗ</span>, <span class="vi-grammar">không thể không</span> tính đến việc cắt giảm chi phí bổ sung, thật sự em <span class="vi-phrase">đau đầu</span>.</div>
+          </div>
+        </div>
+
+        <div class="line">
+          <div class="speaker"><ruby>田中<rt>たなか</rt></ruby></div>
+          <div>
+            <div class="jp"><ruby>問題点<rt>もんだいてん</rt></ruby>の<span class="phrase"><ruby>洗<rt>あら</rt></ruby>い<ruby>出<rt>だ</rt></ruby>し</span>を<ruby>行<rt>おこな</rt></ruby>っ<span class="grammar">た<ruby>上<rt>うえ</rt></ruby>で</span>、<ruby>対策<rt>たいさく</rt></ruby>を<ruby>考<rt>かんが</rt></ruby>えよう。<span class="phrase"><ruby>青写真<rt>あおじゃしん</rt></ruby></span>の<ruby>段階<rt>だんかい</rt></ruby>でお<ruby>客様<rt>きゃくさま</rt></ruby>に<ruby>見<rt>み</rt></ruby>せたら、どう<ruby>反応<rt>はんのう</rt></ruby>するかな。</div>
+            <div class="vi"><span class="vi-grammar">Sau khi</span> tiến hành <span class="vi-phrase">rà soát</span> các vấn đề, hãy nghĩ đối sách. Nếu cho khách xem ở giai đoạn <span class="vi-phrase">dự thảo</span> thì họ phản ứng ra sao nhỉ.</div>
+          </div>
+        </div>
+
+        <div class="line">
+          <div class="speaker"><ruby>鈴木<rt>すずき</rt></ruby></div>
+          <div>
+            <div class="jp">そうですね。<span class="phrase"><ruby>宛名<rt>あてな</rt></ruby></span>を<ruby>先方<rt>せんぽう</rt></ruby>の<ruby>担当者<rt>たんとうしゃ</rt></ruby>にして、<ruby>事前<rt>じぜん</rt></ruby>にメール<span class="phrase">アドレス</span>へ<ruby>資料<rt>しりょう</rt></ruby>をお<ruby>送<rt>おく</rt></ruby>りしましょうか。</div>
+            <div class="vi">Vâng ạ. Hay để <span class="vi-phrase">tên người nhận</span> là người phụ trách bên khách, gửi tài liệu qua <span class="vi-phrase">địa chỉ email</span> trước ạ?</div>
+          </div>
+        </div>
+
+        <div class="line">
+          <div class="speaker"><ruby>田中<rt>たなか</rt></ruby></div>
+          <div>
+            <div class="jp">それがいい。<span class="phrase">アポ</span>を<ruby>取<rt>と</rt></ruby>って<ruby>直接<rt>ちょくせつ</rt></ruby><span class="phrase"><ruby>足<rt>あし</rt></ruby>を<ruby>運<rt>はこ</rt></ruby>ぶ</span><span class="grammar">に<ruby>越<rt>こ</rt></ruby>したことはない</span>ね。<ruby>挨拶<rt>あいさつ</rt></ruby>も<ruby>兼<rt>か</rt></ruby>ねよう。</div>
+            <div class="vi">Được đấy. <span class="vi-grammar">Không gì bằng</span> lấy <span class="vi-phrase">cuộc hẹn</span> và trực tiếp <span class="vi-phrase">cất công qua bên đó</span>. Kết hợp chào hỏi luôn.</div>
+          </div>
+        </div>
+
+        <div class="line">
+          <div class="speaker"><ruby>鈴木<rt>すずき</rt></ruby></div>
+          <div>
+            <div class="jp"><ruby>承知<rt>しょうち</rt></ruby>しました。<ruby>競合<rt>きょうごう</rt></ruby>のA<ruby>社<rt>しゃ</rt></ruby>は<ruby>一日<rt>いちにち</rt></ruby><span class="phrase"><ruby>当<rt>あ</rt></ruby>たり</span>の<span class="phrase">アクセス</span><ruby>数<rt>すう</rt></ruby>が<ruby>非常<rt>ひじょう</rt></ruby>に<ruby>多<rt>おお</rt></ruby>く、<ruby>国内<rt>こくない</rt></ruby><span class="grammar">に<ruby>限<rt>かぎ</rt></ruby>らず</span><ruby>海外<rt>かいがい</rt></ruby>からもアクセスがあり、うちはまだ<span class="phrase"><ruby>足元<rt>あしもと</rt></ruby>にも<ruby>及<rt>およ</rt></ruby>ばない</span><ruby>状況<rt>じょうきょう</rt></ruby>です。</div>
+            <div class="vi">Em rõ ạ. Công ty A đối thủ có số lượt <span class="vi-phrase">truy cập</span> <span class="vi-phrase">tính trên mỗi</span> ngày rất cao, <span class="vi-grammar">không chỉ</span> trong nước mà còn có truy cập từ nước ngoài, mình vẫn <span class="vi-phrase">chưa thể sánh bằng</span>.</div>
+          </div>
+        </div>
+
+        <div class="line">
+          <div class="speaker"><ruby>田中<rt>たなか</rt></ruby></div>
+          <div>
+            <div class="jp"><ruby>対策<rt>たいさく</rt></ruby>しないと、<ruby>売<rt>う</rt></ruby>り<ruby>上<rt>あ</rt></ruby>げが<span class="phrase"><ruby>頭打<rt>あたまう</rt></ruby>ち</span>になり<span class="grammar">かねない</span>から、<ruby>購買意欲<rt>こうばいいよく</rt></ruby>を<span class="phrase">あおる</span>ような<span class="phrase">アイコン</span>やUIの<span class="phrase">アレンジ</span>も<ruby>必要<rt>ひつよう</rt></ruby>だね。</div>
+            <div class="vi">Nếu không có đối sách, doanh số <span class="vi-grammar">có thể</span> bị <span class="vi-phrase">chạm ngưỡng tối đa</span>, nên cũng cần <span class="vi-phrase">biểu tượng</span> và <span class="vi-phrase">điều chỉnh</span> UI theo hướng <span class="vi-phrase">kích thích</span> nhu cầu mua hàng.</div>
+          </div>
+        </div>
+
+        <div class="line">
+          <div class="speaker"><ruby>鈴木<rt>すずき</rt></ruby></div>
+          <div>
+            <div class="jp">はい。<ruby>若年層<rt>じゃくねんそう</rt></ruby>に<ruby>強<rt>つよ</rt></ruby>く<span class="phrase">アピール</span>できるデザインにしたい<span class="grammar">ものの</span>、<span class="phrase"><ruby>遊<rt>あそ</rt></ruby>び</span>を<ruby>入<rt>い</rt></ruby>れすぎると<span class="phrase"><ruby>相手<rt>あいて</rt></ruby></span>に<ruby>軽<rt>かる</rt></ruby>く<ruby>見<rt>み</rt></ruby>られる<ruby>恐<rt>おそ</rt></ruby>れもあります。</div>
+            <div class="vi">Vâng ạ. <span class="vi-grammar">Mặc dù</span> em muốn thiết kế có thể <span class="vi-phrase">thu hút mạnh</span> giới trẻ, nhưng nếu cho quá nhiều <span class="vi-phrase">yếu tố phô trương</span> thì có thể bị <span class="vi-phrase">đối phương/khách</span> đánh giá không nghiêm túc.</div>
+          </div>
+        </div>
+
+        <div class="line">
+          <div class="speaker"><ruby>田中<rt>たなか</rt></ruby></div>
+          <div>
+            <div class="jp"><span class="phrase"><ruby>揚<rt>あ</rt></ruby>げ<ruby>足<rt>あし</rt></ruby>を<ruby>取<rt>と</rt></ruby>られ</span>ないよう、<ruby>細部<rt>さいぶ</rt></ruby>まで<span class="phrase"><ruby>洗<rt>あら</rt></ruby>い<ruby>出<rt>だ</rt></ruby>して</span>、しっかり<ruby>詰<rt>つ</rt></ruby>めよう。<span class="phrase">ID</span>とパスワードのセキュリティも<span class="phrase"><ruby>改<rt>あらた</rt></ruby>めて</span><ruby>確認<rt>かくにん</rt></ruby>して。</div>
+            <div class="vi">Để không bị <span class="vi-phrase">bới lông tìm vết</span>, hãy <span class="vi-phrase">rà soát hết</span> đến từng chi tiết và chốt kỹ. Bảo mật <span class="vi-phrase">ID</span> và mật khẩu cũng hãy kiểm tra <span class="vi-phrase">lại một lần nữa</span>.</div>
+          </div>
+        </div>
+
+        <div class="line">
+          <div class="speaker"><ruby>鈴木<rt>すずき</rt></ruby></div>
+          <div>
+            <div class="jp"><ruby>分<rt>わ</rt></ruby>かりました。<ruby>景気<rt>けいき</rt></ruby>の<span class="phrase">あおり</span>で<ruby>消費<rt>しょうひ</rt></ruby>が<ruby>冷<rt>ひ</rt></ruby>え<ruby>込<rt>こ</rt></ruby>んでいるので、<span class="phrase"><ruby>粗利益<rt>あらりえき</rt></ruby></span>を<ruby>確保<rt>かくほ</rt></ruby>するのは<ruby>大変<rt>たいへん</rt></ruby>ですが、<ruby>諦<rt>あきら</rt></ruby>める<span class="grammar">わけにはいきません</span>。<ruby>頑張<rt>がんば</rt></ruby>ります。</div>
+            <div class="vi">Em rõ ạ. Do <span class="vi-phrase">ảnh hưởng</span> của tình hình kinh tế, tiêu dùng đang chững lại nên việc đảm bảo <span class="vi-phrase">lợi nhuận gộp</span> rất khó, nhưng <span class="vi-grammar">không thể</span> bỏ cuộc được. Em sẽ cố gắng.</div>
+          </div>
+        </div>
+
+        <div class="line">
+          <div class="speaker"><ruby>田中<rt>たなか</rt></ruby></div>
+          <div>
+            <div class="jp"><span class="phrase"><ruby>商<rt>あきな</rt></ruby>い</span>の<ruby>世界<rt>せかい</rt></ruby>は<ruby>厳<rt>きび</rt></ruby>しいからね。でも、<ruby>他人<rt>たにん</rt></ruby>を<span class="phrase"><ruby>当<rt>あ</rt></ruby>てに</span>しないで、お<ruby>客様<rt>きゃくさま</rt></ruby><span class="grammar">に<ruby>対<rt>たい</rt></ruby>して</span><ruby>自分<rt>じぶん</rt></ruby>で<span class="phrase">アクション</span>を<ruby>起<rt>お</rt></ruby>こす<ruby>姿勢<rt>しせい</rt></ruby>が<ruby>大事<rt>だいじ</rt></ruby>だ。</div>
+            <div class="vi">Thế giới <span class="vi-phrase">buôn bán/kinh doanh</span> khắc nghiệt mà. Nhưng đừng <span class="vi-phrase">trông cậy</span> vào người khác, thái độ tự mình <span class="vi-phrase">hành động</span> <span class="vi-grammar">đối với</span> khách hàng mới quan trọng.</div>
+          </div>
+        </div>
+
+        <div class="line">
+          <div class="speaker"><ruby>鈴木<rt>すずき</rt></ruby></div>
+          <div>
+            <div class="jp">はい。<ruby>関連<rt>かんれん</rt></ruby>する<ruby>社内<rt>しゃない</rt></ruby><ruby>規定<rt>きてい</rt></ruby>も、この<ruby>機会<rt>きかい</rt></ruby>に<span class="phrase"><ruby>改<rt>あらた</rt></ruby>める</span><ruby>必要<rt>ひつよう</rt></ruby>があるかもしれません。</div>
+            <div class="vi">Vâng ạ. Cả quy định nội bộ liên quan cũng có thể cần phải <span class="vi-phrase">xem xét lại/sửa đổi</span> nhân dịp này.</div>
+          </div>
+        </div>
+
+        <div class="line">
+          <div class="speaker"><ruby>田中<rt>たなか</rt></ruby></div>
+          <div>
+            <div class="jp">そうだね。それから、<ruby>先週<rt>せんしゅう</rt></ruby><ruby>投入<rt>とうにゅう</rt></ruby>した<span class="phrase">アウトレット</span><span class="grammar"><ruby>向<rt>む</rt></ruby>けの</span><ruby>商品<rt>しょうひん</rt></ruby>はどう?</div>
+            <div class="vi">Đúng thế. Còn nữa, sản phẩm <span class="vi-grammar">dành cho</span> kênh <span class="vi-phrase">outlet</span> đã tung ra tuần trước thì sao?</div>
+          </div>
+        </div>
+
+        <div class="line">
+          <div class="speaker"><ruby>鈴木<rt>すずき</rt></ruby></div>
+          <div>
+            <div class="jp"><ruby>売<rt>う</rt></ruby>れ<ruby>行<rt>ゆ</rt></ruby>きは<span class="phrase">アバウト</span>に<ruby>言<rt>い</rt></ruby>うとまずまずです。SNS<span class="grammar">を<ruby>通<rt>つう</rt></ruby>じて</span>の<ruby>宣伝<rt>せんでん</rt></ruby>も<ruby>効果<rt>こうか</rt></ruby>があります。ただ、<ruby>注文分<rt>ちゅうもんぶん</rt></ruby>のサンプルはまだ<span class="phrase"><ruby>上<rt>あ</rt></ruby>がって</span>きていません。<ruby>改<rt>あらた</rt></ruby>めて<ruby>数字<rt>すうじ</rt></ruby>をまとめてご<ruby>報告<rt>ほうこく</rt></ruby>します。</div>
+            <div class="vi">Doanh số nói <span class="vi-phrase">áng chừng</span> thì tạm ổn ạ. Quảng cáo <span class="vi-grammar">thông qua</span> SNS cũng có hiệu quả. Tuy nhiên sample của lô đặt hàng vẫn <span class="vi-phrase">chưa được hoàn thành</span>. Em sẽ tổng hợp lại số liệu và báo cáo lại ạ.</div>
+          </div>
+        </div>
+
+        <div class="line">
+          <div class="speaker"><ruby>田中<rt>たなか</rt></ruby></div>
+          <div>
+            <div class="jp">ありがとう。ところで、<ruby>来月<rt>らいげつ</rt></ruby>の<ruby>会食<rt>かいしょく</rt></ruby>の<ruby>勘定<rt>かんじょう</rt></ruby>は、いつも<ruby>通<rt>どお</rt></ruby>り<span class="phrase"><ruby>頭割<rt>あたまわ</rt></ruby>り</span>でいい?</div>
+            <div class="vi">Cảm ơn. Nhân tiện, tiền bữa liên hoan tháng sau, <span class="vi-phrase">chia đều theo đầu người</span> như mọi khi được không?</div>
+          </div>
+        </div>
+
+        <div class="line">
+          <div class="speaker"><ruby>鈴木<rt>すずき</rt></ruby></div>
+          <div>
+            <div class="jp">もちろんです。あ、そういえば、<ruby>田中<rt>たなか</rt></ruby><ruby>課長<rt>かちょう</rt></ruby><span class="phrase"><ruby>宛<rt>あて</rt></ruby></span>に<ruby>荷物<rt>にもつ</rt></ruby>が<ruby>届<rt>とど</rt></ruby>いていましたよ。</div>
+            <div class="vi">Tất nhiên rồi ạ. À, em nhớ ra, có bưu kiện <span class="vi-phrase">gửi đến</span> anh Tanaka đấy ạ.</div>
+          </div>
+        </div>
+
+        <div class="line">
+          <div class="speaker"><ruby>田中<rt>たなか</rt></ruby></div>
+          <div>
+            <div class="jp">あ、ありがとう。プロジェクトの<ruby>進捗<rt>しんちょく</rt></ruby><span class="grammar">に<ruby>伴<rt>ともな</rt></ruby>って</span>、<ruby>次<rt>つぎ</rt></ruby>のアクションを<ruby>整理<rt>せいり</rt></ruby>しよう。<ruby>今日<rt>きょう</rt></ruby><ruby>中<rt>じゅう</rt></ruby>に<ruby>改<rt>あらた</rt></ruby>めて<ruby>資料<rt>しりょう</rt></ruby>を<ruby>上<rt>あ</rt></ruby>げてくれる?</div>
+            <div class="vi">À cảm ơn. <span class="vi-grammar">Cùng với</span> tiến độ dự án, mình sắp xếp lại hành động tiếp theo nhé. Trong hôm nay em nộp lại tài liệu được không?</div>
+          </div>
+        </div>
+
+        <div class="line">
+          <div class="speaker"><ruby>鈴木<rt>すずき</rt></ruby></div>
+          <div>
+            <div class="jp">はい、<ruby>必<rt>かなら</rt></ruby>ず<ruby>上<rt>あ</rt></ruby>げます。あ、あと、<ruby>住宅<rt>じゅうたく</rt></ruby>ローンの<span class="phrase"><ruby>頭金<rt>あたまきん</rt></ruby></span>の<ruby>件<rt>けん</rt></ruby>で<ruby>相談<rt>そうだん</rt></ruby>させてもらいたいのですが、<ruby>後<rt>のち</rt></ruby>ほどお<ruby>時間<rt>じかん</rt></ruby>いいですか?</div>
+            <div class="vi">Vâng ạ, em nhất định sẽ nộp. À còn nữa, em muốn hỏi anh về vụ <span class="vi-phrase">tiền trả trước</span> của khoản vay mua nhà, sau này anh có thời gian được không ạ?</div>
+          </div>
+        </div>
+
+        <div class="line">
+          <div class="speaker"><ruby>田中<rt>たなか</rt></ruby></div>
+          <div>
+            <div class="jp">いいよ。<ruby>株<rt>かぶ</rt></ruby>の<ruby>商<rt>あきな</rt></ruby>いみたいに<ruby>簡単<rt>かんたん</rt></ruby>じゃないけど、<ruby>相談<rt>そうだん</rt></ruby>に<ruby>乗<rt>の</rt></ruby>るよ。</div>
+            <div class="vi">Được thôi. Không đơn giản như mua bán cổ phiếu đâu nhưng anh sẽ tư vấn cho.</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <p class="note">50/50 từ vựng bài 1 (đỏ) + 15 mẫu ngữ pháp BJT J2~J3 (xanh) được lồng vào hội thoại. Nhấn <b>Hiện ルビ</b> để xem furigana, nhấn <b>Ẩn dịch</b> để luyện đọc.</p>
+  </main>
+
+  <script>
+    const body = document.body;
+    const rubyBtn = document.getElementById('toggleRuby');
+    const viBtn = document.getElementById('toggleTranslation');
+    const pdfBtn = document.getElementById('exportPdf');
+
+    rubyBtn.addEventListener('click', () => {
+      const hidden = body.classList.toggle('hide-ruby');
+      rubyBtn.textContent = hidden ? 'Hiện ルビ' : 'Ẩn ルビ';
+    });
+
+    viBtn.addEventListener('click', () => {
+      const hidden = body.classList.toggle('hide-translation');
+      viBtn.textContent = hidden ? 'Hiện dịch' : 'Ẩn dịch';
+    });
+
+    pdfBtn.addEventListener('click', () => window.print());
+  </script>
+</body>
+</html>
