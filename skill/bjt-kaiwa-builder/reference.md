@@ -131,6 +131,14 @@ Do **not** reuse the old 15 "greatest hits" for every bài. Follow [grammar-cove
 - **Bài 4 next 15:** `#22,23,24,25,26,27,28,29,30,31,32,33,34,35,36`.
 - Later bài: next 15 unused IDs in PDF order. After all 117 appear once, pick least-used IDs.
 
+## Keigo overlay (verb table, not 117)
+
+Source: `tai lieu ngu phap/Thaolejp_Bang chia dong tu ve dang kinh ngu.pdf`.
+
+- Supporting layer only: **3–5 pairs per bài**, no extra color, does not replace the 15 grammar IDs.
+- Bài 3 used: 来る→参る, する→いたす, いる→おる, 見る→ご覧いただく, 確認する→ご確認ください／確認いたす. Plus 丁寧語 style (`このたび`, `でございます`).
+- Later bài: pick unused high-frequency pairs from the same PDF that fit the scene. Do not retrofit bài 1–2.
+
 ## Audio/Video Notes
 
 - edge-tts is a Python package: `pip install --user edge-tts`. List voices with `python3 -m edge_tts --list-voices | grep ja-JP`.

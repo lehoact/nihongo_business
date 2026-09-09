@@ -27,6 +27,7 @@ The source can be any of:
 1. **Screenshots** of BJT expressions (OCR path). See [reference.md](reference.md) for the sample 37-expression set.
 2. **Vocabulary PDF** organized by bài (e.g. `Thaolejp_BJT_Chinh phuc tu vung.pdf`). Extract with PyMuPDF, then locate the target bài by heading (e.g. `BÀI 1`).
 3. **Grammar PDF** (e.g. `Thaolejp_BJT_Tong hop ngu phap BJT J3~J2 thuong gap.pdf`). Shared 117-pattern list. Do **not** pick favorites. Follow [grammar-coverage.md](grammar-coverage.md).
+4. **Keigo verb table** (`Thaolejp_Bang chia dong tu ve dang kinh ngu.pdf`). Supporting layer from bài 3: 3–5 pairs per lesson. See step 5b.
 
 ## Workflow
 
@@ -60,6 +61,15 @@ The source can be any of:
    - **Coverage (mandatory from bài 3):** 15 unused patterns from [grammar-coverage.md](grammar-coverage.md), PDF order. Do not reuse the bài 1/2 "greatest hits" set. Swap at most 2–3 if a pattern cannot fit the scene; take the next unused and mark the skipped one `hoãn`. After 117 are used once, pick the least-used IDs (review cycle).
    - Do **not** rebuild bài 1 or bài 2 just to change grammar.
    - Rewrite dialogue lines to embed each assigned pattern naturally; keep all vocabulary intact.
+
+5b. **Overlay keigo (from bài 3).**
+   - Source: `tai lieu ngu phap/Thaolejp_Bang chia dong tu ve dang kinh ngu.pdf` (irregular verbs + お/ご～ rules + 丁寧語).
+   - Do **not** turn this into a third 15-item checklist or a third highlight color.
+   - Each lesson: **3–5 pairs**. 鈴木 (junior) uses 謙譲語 for her own acts and 尊敬語 when the listener/boss acts. 田中 (課長) may use ご～ください toward 鈴木; keep his intra-team よ／くれ.
+   - Prefer high-frequency BJT pairs: する→いたす, 来る／行く→参る／伺う, いる→おる, 見る→ご覧いただく／拝見する, 確認する→確認いたす／ご確認ください, 言う→申す／おっしゃる, もらう→いただく.
+   - 丁寧語 nouns (`このたび`, `後ほど`, `でございます`) are style, not a counted pair.
+   - Skip 召す items that do not fit an office scene (`お風邪を召す`, `お風呂に召す`).
+   - Bài 3 pairs: 参る, いたす, おる, ご覧いただく, ご確認ください. Do **not** rebuild bài 1 or bài 2 for keigo.
 
 6. **Add PDF export.**
    - Add a `Xuất PDF` button that calls `window.print()`.
