@@ -175,6 +175,25 @@ Key parsing tricks:
 - To extract both `.phrase` and `.grammar` ranges in the same pass, pass a list of class names and match `<span class="(cls1|cls2)">...</span>`. Track them into separate range lists but share the same `text` counter so positions line up.
 - Kana extraction: iterate `<ruby>(.*?)<rt>(.*?)</rt></ruby>` matches; append `base` to display, `reading` to kana, and any bare text between matches to both.
 
+## YouTube title and description
+
+When the user asks for title/description to upload a lesson video:
+
+- Language: Vietnamese, copy-paste ready. Title under ~70 characters.
+- Title: `BJT Bài [N] | [tình huống 4–8 chữ]: 50 từ` (add `+ kính ngữ` only if that bài has the keigo overlay).
+- Description blocks: scene one-liner → 25 câu 田中課長 × 鈴木 → 50 từ / 15 ngữ pháp → 4–8 exam words → audience → 3 study steps → `#BJT #日本語 #ビジネス日本語 #tiengNhat #JLPT`.
+- Optional one series line: `📌 Series BJT 450 từ — mỗi bài 50 từ, 1 hội thoại liền mạch.`
+- **Never include:** `Website: https://thaolejp.com`, `#ThaoLeJP`, or a cross-lesson list (`Bài 1: họp sáng…` / `Bài 2: …` / `Bài 3: …`).
+- Thumbnail: `BJT [N]` + short scene + `50 từ`.
+
+Locked titles:
+
+| Bài | Title |
+|---|---|
+| 1 | BJT Bài 1 \| Họp sáng dự án EC app: 50 từ |
+| 2 | BJT Bài 2 \| Họp sự kiện ra mắt + chuyển văn phòng: 50 từ |
+| 3 | BJT Bài 3 \| Họp bán hàng: 50 từ + kính ngữ (いたす・参る) |
+
 ## Git Push Workflow
 
 When the user asks to push the lesson:

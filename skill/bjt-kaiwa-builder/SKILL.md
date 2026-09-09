@@ -19,6 +19,7 @@ Use this skill when the user says things like:
 - "lồng ghép ngữ pháp BJT vào từ vựng bài N"
 - "xuất mp3/mp4 để nghe lại"
 - "show nội dung đọc trên màn hình" / "thêm button xuất PDF"
+- "title YouTube" / "description YouTube" / "đặt title và description"
 
 ## Input Types
 
@@ -96,12 +97,21 @@ The source can be any of:
    - Use font `/Library/Fonts/Arial Unicode.ttf` on macOS.
    - JP line spacing: ~1.35× base + ~0.48× for ルビ. VI/EN 行間 ≈ 1.35×.
    - After concat, `ffprobe` the final MP3 and MP4; durations must match within ~0.2s.
-   - Successful `mp4` stage auto-runs `clean` (see step 10). Do **not** rebuild bài 1 or bài 2 unless the user asks.
+   - Successful `mp4` stage auto-runs `clean` (see step 11). Do **not** rebuild bài 1 or bài 2 unless the user asks.
 
-9. **(Optional) Push to GitHub.**
+9. **YouTube title and description when requested.**
+   - Write in Vietnamese, ready to copy-paste. Title under ~70 characters.
+   - Title template: `BJT Bài [N] | [tình huống 4–8 chữ]: 50 từ`. Add `+ kính ngữ` only if that lesson has the keigo overlay.
+   - Description: one scene line; 25 câu 田中課長 × 鈴木; 50 từ + 15 ngữ pháp (+ kính ngữ if used); 4–8 từ hay thi; who it is for; 3 study steps; hashtags `#BJT #日本語 #ビジネス日本語 #tiengNhat #JLPT`.
+   - Keep `📌 Series BJT 450 từ — mỗi bài 50 từ, 1 hội thoại liền mạch.` if useful.
+   - **Do not include:** `Website: https://thaolejp.com`, `#ThaoLeJP`, or a list of other lessons (`Bài 1: …` / `Bài 2: …` / `Bài 3: …`).
+   - Thumbnail hint: large `BJT [N]` + short scene + `50 từ`.
+   - Published titles: Bài 1 `BJT Bài 1 | Họp sáng dự án EC app: 50 từ`; Bài 2 `BJT Bài 2 | Họp sự kiện ra mắt + chuyển văn phòng: 50 từ`; Bài 3 `BJT Bài 3 | Họp bán hàng: 50 từ + kính ngữ (いたす・参る)`.
+
+10. **(Optional) Push to GitHub.**
    - When the user asks to push, clone the target repo, create/checkout the branch (e.g. `bjt450-kotoba`), copy files into a `bai<N>/` folder, commit, and push. Requires `git_write` permission. Push only `index.html` + final MP3 + final MP4.
 
-10. **Clean artifacts (mandatory after a successful build).**
+11. **Clean artifacts (mandatory after a successful build).**
     - Keep only: `index.html`, final MP3, final MP4, `segments.json`, `_ja.txt`.
     - Delete `tts_parts_edge_tokyo_multi_voice/`, `mp4_slides_edge_tokyo_multi_voice/`, `concat.txt`, `.DS_Store`, and one-off helpers (`source code/_*.py`, `.tmp/*.py`, `.tmp/*.txt`). Keep the empty `.tmp/` folder as `TMPDIR`.
     - The builder itself lives in `source code/build_mp4.py`, not per bài. `mp4` already calls `clean`; or run `--lesson "bài N" clean`.
