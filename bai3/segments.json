@@ -1,0 +1,1320 @@
+[
+  {
+    "idx": 0,
+    "scene": "場面: 営業部で田中課長と鈴木さんが新商品の売り出しと物流を確認",
+    "speaker": "田中",
+    "voice": "ja-JP-KeitaNeural",
+    "jp": "新商品の発売にあたって、営業方針を打ち合わせるよ。",
+    "jp_html": "<ruby>新商品<rt>しんしょうひん</rt></ruby>の<ruby>発売<rt>はつばい</rt></ruby><span class=\"grammar\">にあたって</span>、<span class=\"phrase\"><ruby>営業<rt>えいぎょう</rt></ruby></span><ruby>方針<rt>ほうしん</rt></ruby>を<span class=\"phrase\"><ruby>打<rt>う</rt></ruby>ち<ruby>合<rt>あ</rt></ruby>わせる</span>よ。",
+    "jp_phrase": [
+      [
+        12,
+        14
+      ],
+      [
+        17,
+        23
+      ]
+    ],
+    "jp_grammar": [
+      [
+        6,
+        11
+      ]
+    ],
+    "tts_text": "新商品の発売にあたって、営業方針を打ち合わせるよ。",
+    "vi": "Nhân dịp ra mắt sản phẩm mới, anh muốn bàn bạc phương châm kinh doanh.",
+    "vi_phrase": [
+      [
+        39,
+        46
+      ],
+      [
+        59,
+        69
+      ]
+    ],
+    "vi_grammar": [
+      [
+        0,
+        8
+      ]
+    ],
+    "en": "On the occasion of the new product launch, I want to discuss the sales policy.",
+    "en_phrase": [
+      [
+        53,
+        60
+      ],
+      [
+        65,
+        70
+      ]
+    ],
+    "en_grammar": [
+      [
+        0,
+        18
+      ]
+    ]
+  },
+  {
+    "idx": 1,
+    "scene": "場面: 営業部で田中課長と鈴木さんが新商品の売り出しと物流を確認",
+    "speaker": "鈴木",
+    "voice": "ja-JP-NanamiNeural",
+    "jp": "はい。各営業所の売上に関して、資料を持ってきました。",
+    "jp_html": "はい。<ruby>各<rt>かく</rt></ruby><span class=\"phrase\"><ruby>営業所<rt>えいぎょうしょ</rt></ruby></span>の<span class=\"phrase\"><ruby>売上<rt>うりあげ</rt></ruby></span><span class=\"grammar\">に<ruby>関<rt>かん</rt></ruby>して</span>、<ruby>資料<rt>しりょう</rt></ruby>を<ruby>持<rt>も</rt></ruby>ってきました。",
+    "jp_phrase": [
+      [
+        4,
+        7
+      ],
+      [
+        8,
+        10
+      ]
+    ],
+    "jp_grammar": [
+      [
+        10,
+        14
+      ]
+    ],
+    "tts_text": "はい。各営業所の売上に関して、資料を持ってきました。",
+    "vi": "Vâng ạ. Em mang tài liệu liên quan đến doanh số từng chi nhánh kinh doanh.",
+    "vi_phrase": [
+      [
+        39,
+        47
+      ],
+      [
+        53,
+        73
+      ]
+    ],
+    "vi_grammar": [
+      [
+        25,
+        38
+      ]
+    ],
+    "en": "Yes. I brought materials regarding each sales office's sales.",
+    "en_phrase": [
+      [
+        40,
+        52
+      ],
+      [
+        55,
+        60
+      ]
+    ],
+    "en_grammar": [
+      [
+        25,
+        34
+      ]
+    ]
+  },
+  {
+    "idx": 2,
+    "scene": "場面: 営業部で田中課長と鈴木さんが新商品の売り出しと物流を確認",
+    "speaker": "田中",
+    "voice": "ja-JP-KeitaNeural",
+    "jp": "先月は売れ行きが上向くしてきたね。",
+    "jp_html": "<ruby>先月<rt>せんげつ</rt></ruby>は<span class=\"phrase\"><ruby>売<rt>う</rt></ruby>れ<ruby>行<rt>ゆ</rt></ruby>き</span>が<span class=\"phrase\"><ruby>上向<rt>うわむ</rt></ruby>く</span>してきたね。",
+    "jp_phrase": [
+      [
+        3,
+        7
+      ],
+      [
+        8,
+        11
+      ]
+    ],
+    "jp_grammar": [],
+    "tts_text": "先月は売れ行きが上向くしてきたね。",
+    "vi": "Tháng trước tình hình bán đã bắt đầu đi lên nhỉ.",
+    "vi_phrase": [
+      [
+        12,
+        25
+      ],
+      [
+        37,
+        43
+      ]
+    ],
+    "vi_grammar": [],
+    "en": "Last month sales started to pick up.",
+    "en_phrase": [
+      [
+        11,
+        16
+      ],
+      [
+        28,
+        35
+      ]
+    ],
+    "en_grammar": []
+  },
+  {
+    "idx": 3,
+    "scene": "場面: 営業部で田中課長と鈴木さんが新商品の売り出しと物流を確認",
+    "speaker": "鈴木",
+    "voice": "ja-JP-NanamiNeural",
+    "jp": "売れ筋は確かに売れる以上、在庫を厚くします。",
+    "jp_html": "<span class=\"phrase\"><ruby>売<rt>う</rt></ruby>れ<ruby>筋<rt>すじ</rt></ruby></span>は<ruby>確<rt>たし</rt></ruby>かに<span class=\"phrase\"><ruby>売<rt>う</rt></ruby>れる</span><span class=\"grammar\"><ruby>以上<rt>いじょう</rt></ruby></span>、<ruby>在庫<rt>ざいこ</rt></ruby>を<ruby>厚<rt>あつ</rt></ruby>くします。",
+    "jp_phrase": [
+      [
+        0,
+        3
+      ],
+      [
+        7,
+        10
+      ]
+    ],
+    "jp_grammar": [
+      [
+        10,
+        12
+      ]
+    ],
+    "tts_text": "売れ筋は確かに売れる以上、在庫を厚くします。",
+    "vi": "Đã là mặt bán chạy thì bán được, em sẽ tăng tồn kho.",
+    "vi_phrase": [
+      [
+        10,
+        18
+      ],
+      [
+        23,
+        31
+      ]
+    ],
+    "vi_grammar": [
+      [
+        0,
+        5
+      ]
+    ],
+    "en": "Now that the best-sellers do sell, I will increase stock.",
+    "en_phrase": [
+      [
+        13,
+        25
+      ],
+      [
+        29,
+        33
+      ]
+    ],
+    "en_grammar": [
+      [
+        0,
+        8
+      ]
+    ]
+  },
+  {
+    "idx": 4,
+    "scene": "場面: 営業部で田中課長と鈴木さんが新商品の売り出しと物流を確認",
+    "speaker": "田中",
+    "voice": "ja-JP-KeitaNeural",
+    "jp": "来週、新色を売り出すべきだと思う。",
+    "jp_html": "<ruby>来週<rt>らいしゅう</rt></ruby>、<ruby>新色<rt>しんしょく</rt></ruby>を<span class=\"phrase\"><ruby>売<rt>う</rt></ruby>り<ruby>出<rt>だ</rt></ruby>す</span><span class=\"grammar\">べき</span>だと<ruby>思<rt>おも</rt></ruby>う。",
+    "jp_phrase": [
+      [
+        6,
+        10
+      ]
+    ],
+    "jp_grammar": [
+      [
+        10,
+        12
+      ]
+    ],
+    "tts_text": "来週、新色を売り出すべきだと思う。",
+    "vi": "Tuần sau nên tung ra màu mới.",
+    "vi_phrase": [
+      [
+        13,
+        20
+      ]
+    ],
+    "vi_grammar": [
+      [
+        9,
+        12
+      ]
+    ],
+    "en": "I think we should launch the new color next week.",
+    "en_phrase": [
+      [
+        18,
+        24
+      ]
+    ],
+    "en_grammar": [
+      [
+        11,
+        17
+      ]
+    ]
+  },
+  {
+    "idx": 5,
+    "scene": "場面: 営業部で田中課長と鈴木さんが新商品の売り出しと物流を確認",
+    "speaker": "鈴木",
+    "voice": "ja-JP-NanamiNeural",
+    "jp": "売り出し初日は、売場の人員を増やします。",
+    "jp_html": "<span class=\"phrase\"><ruby>売<rt>う</rt></ruby>り<ruby>出<rt>だ</rt></ruby>し</span><ruby>初日<rt>しょにち</rt></ruby>は、<span class=\"phrase\"><ruby>売場<rt>うりば</rt></ruby></span>の<ruby>人員<rt>じんいん</rt></ruby>を<ruby>増<rt>ふ</rt></ruby>やします。",
+    "jp_phrase": [
+      [
+        0,
+        4
+      ],
+      [
+        8,
+        10
+      ]
+    ],
+    "jp_grammar": [],
+    "tts_text": "売り出し初日は、売場の人員を増やします。",
+    "vi": "Ngày đầu mở bán, em sẽ tăng người ở quầy.",
+    "vi_phrase": [
+      [
+        9,
+        15
+      ],
+      [
+        36,
+        40
+      ]
+    ],
+    "vi_grammar": [],
+    "en": "On the first day of the sale, I will add staff at the counter.",
+    "en_phrase": [
+      [
+        24,
+        28
+      ],
+      [
+        54,
+        61
+      ]
+    ],
+    "en_grammar": []
+  },
+  {
+    "idx": 6,
+    "scene": "場面: 営業部で田中課長と鈴木さんが新商品の売り出しと物流を確認",
+    "speaker": "田中",
+    "voice": "ja-JP-KeitaNeural",
+    "jp": "今回は若年層を中心に売り込みをかけよう。",
+    "jp_html": "<ruby>今回<rt>こんかい</rt></ruby>は<ruby>若年層<rt>じゃくねんそう</rt></ruby><span class=\"grammar\">を<ruby>中心<rt>ちゅうしん</rt></ruby>に</span><span class=\"phrase\"><ruby>売<rt>う</rt></ruby>り<ruby>込<rt>こ</rt></ruby>み</span>をかけよう。",
+    "jp_phrase": [
+      [
+        10,
+        14
+      ]
+    ],
+    "jp_grammar": [
+      [
+        6,
+        10
+      ]
+    ],
+    "tts_text": "今回は若年層を中心に売り込みをかけよう。",
+    "vi": "Lần này hãy tiếp thị xoay quanh giới trẻ.",
+    "vi_phrase": [
+      [
+        12,
+        20
+      ]
+    ],
+    "vi_grammar": [
+      [
+        21,
+        31
+      ]
+    ],
+    "en": "This time let's promote with a focus on younger customers.",
+    "en_phrase": [
+      [
+        16,
+        23
+      ]
+    ],
+    "en_grammar": [
+      [
+        24,
+        39
+      ]
+    ]
+  },
+  {
+    "idx": 7,
+    "scene": "場面: 営業部で田中課長と鈴木さんが新商品の売り出しと物流を確認",
+    "speaker": "鈴木",
+    "voice": "ja-JP-NanamiNeural",
+    "jp": "デザインのエキスパートにも売り込む予定です。",
+    "jp_html": "デザインの<span class=\"phrase\">エキスパート</span>にも<span class=\"phrase\"><ruby>売<rt>う</rt></ruby>り<ruby>込<rt>こ</rt></ruby>む</span><ruby>予定<rt>よてい</rt></ruby>です。",
+    "jp_phrase": [
+      [
+        5,
+        11
+      ],
+      [
+        13,
+        17
+      ]
+    ],
+    "jp_grammar": [],
+    "tts_text": "デザインのエキスパートにも売り込む予定です。",
+    "vi": "Em cũng định chào bán cho cả chuyên gia thiết kế.",
+    "vi_phrase": [
+      [
+        13,
+        21
+      ],
+      [
+        29,
+        39
+      ]
+    ],
+    "vi_grammar": [],
+    "en": "We also plan to pitch it to design experts.",
+    "en_phrase": [
+      [
+        16,
+        21
+      ],
+      [
+        35,
+        42
+      ]
+    ],
+    "en_grammar": []
+  },
+  {
+    "idx": 8,
+    "scene": "場面: 営業部で田中課長と鈴木さんが新商品の売り出しと物流を確認",
+    "speaker": "田中",
+    "voice": "ja-JP-KeitaNeural",
+    "jp": "営利はもちろん、ブランドも大事だ。",
+    "jp_html": "<span class=\"phrase\"><ruby>営利<rt>えいり</rt></ruby></span><span class=\"grammar\">はもちろん</span>、ブランドも<ruby>大事<rt>だいじ</rt></ruby>だ。",
+    "jp_phrase": [
+      [
+        0,
+        2
+      ]
+    ],
+    "jp_grammar": [
+      [
+        2,
+        7
+      ]
+    ],
+    "tts_text": "営利はもちろん、ブランドも大事だ。",
+    "vi": "Lợi nhuận là đương nhiên, thương hiệu cũng quan trọng.",
+    "vi_phrase": [
+      [
+        0,
+        9
+      ]
+    ],
+    "vi_grammar": [
+      [
+        10,
+        24
+      ]
+    ],
+    "en": "Profit goes without saying, but the brand matters too.",
+    "en_phrase": [
+      [
+        0,
+        6
+      ]
+    ],
+    "en_grammar": [
+      [
+        7,
+        26
+      ]
+    ]
+  },
+  {
+    "idx": 9,
+    "scene": "場面: 営業部で田中課長と鈴木さんが新商品の売り出しと物流を確認",
+    "speaker": "鈴木",
+    "voice": "ja-JP-NanamiNeural",
+    "jp": "絵に描いた餅なんかでは困ります。",
+    "jp_html": "<span class=\"phrase\"><ruby>絵<rt>え</rt></ruby>に<ruby>描<rt>か</rt></ruby>いた<ruby>餅<rt>もち</rt></ruby></span><span class=\"grammar\">なんか</span>では<ruby>困<rt>こま</rt></ruby>ります。",
+    "jp_phrase": [
+      [
+        0,
+        6
+      ]
+    ],
+    "jp_grammar": [
+      [
+        6,
+        9
+      ]
+    ],
+    "tts_text": "絵に描いた餅なんかでは困ります。",
+    "vi": "Chỉ là bánh vẽ thôi thì không xong ạ.",
+    "vi_phrase": [
+      [
+        7,
+        14
+      ]
+    ],
+    "vi_grammar": [
+      [
+        15,
+        23
+      ]
+    ],
+    "en": "A pie-in-the-sky plan just will not do.",
+    "en_phrase": [
+      [
+        2,
+        21
+      ]
+    ],
+    "en_grammar": [
+      [
+        22,
+        26
+      ]
+    ]
+  },
+  {
+    "idx": 10,
+    "scene": "場面: 営業部で田中課長と鈴木さんが新商品の売り出しと物流を確認",
+    "speaker": "田中",
+    "voice": "ja-JP-KeitaNeural",
+    "jp": "数字の裏付けで、計画を裏付けてくれ。",
+    "jp_html": "<ruby>数字<rt>すうじ</rt></ruby>の<span class=\"phrase\"><ruby>裏付<rt>うらづ</rt></ruby>け</span>で、<ruby>計画<rt>けいかく</rt></ruby>を<span class=\"phrase\"><ruby>裏付<rt>うらづ</rt></ruby>けて</span>くれ。",
+    "jp_phrase": [
+      [
+        3,
+        6
+      ],
+      [
+        11,
+        15
+      ]
+    ],
+    "jp_grammar": [],
+    "tts_text": "数字の裏付けで、計画を裏付けてくれ。",
+    "vi": "Hãy chứng minh kế hoạch bằng căn cứ số liệu.",
+    "vi_phrase": [
+      [
+        4,
+        14
+      ],
+      [
+        29,
+        35
+      ]
+    ],
+    "vi_grammar": [],
+    "en": "Please back the plan with numerical evidence.",
+    "en_phrase": [
+      [
+        7,
+        11
+      ],
+      [
+        36,
+        44
+      ]
+    ],
+    "en_grammar": []
+  },
+  {
+    "idx": 11,
+    "scene": "場面: 営業部で田中課長と鈴木さんが新商品の売り出しと物流を確認",
+    "speaker": "鈴木",
+    "voice": "ja-JP-NanamiNeural",
+    "jp": "円グラフを社内サイトで閲覧できるようにしました。",
+    "jp_html": "<span class=\"phrase\"><ruby>円<rt>えん</rt></ruby>グラフ</span>を<ruby>社内<rt>しゃない</rt></ruby>サイトで<span class=\"phrase\"><ruby>閲覧<rt>えつらん</rt></ruby></span>できるようにしました。",
+    "jp_phrase": [
+      [
+        0,
+        4
+      ],
+      [
+        11,
+        13
+      ]
+    ],
+    "jp_grammar": [],
+    "tts_text": "円グラフを社内サイトで閲覧できるようにしました。",
+    "vi": "Em đã để xem được biểu đồ tròn trên site nội bộ, có thể xem được.",
+    "vi_phrase": [
+      [
+        18,
+        30
+      ],
+      [
+        56,
+        59
+      ]
+    ],
+    "vi_grammar": [],
+    "en": "I made the pie chart viewable on the intranet.",
+    "en_phrase": [
+      [
+        11,
+        20
+      ],
+      [
+        21,
+        29
+      ]
+    ],
+    "en_grammar": []
+  },
+  {
+    "idx": 12,
+    "scene": "場面: 営業部で田中課長と鈴木さんが新商品の売り出しと物流を確認",
+    "speaker": "田中",
+    "voice": "ja-JP-KeitaNeural",
+    "jp": "目標を上回って、売り上げたいね。",
+    "jp_html": "<ruby>目標<rt>もくひょう</rt></ruby>を<span class=\"phrase\"><ruby>上回<rt>うわまわ</rt></ruby>って</span>、<span class=\"phrase\"><ruby>売<rt>う</rt></ruby>り<ruby>上<rt>あ</rt></ruby>げたい</span>ね。",
+    "jp_phrase": [
+      [
+        3,
+        7
+      ],
+      [
+        8,
+        14
+      ]
+    ],
+    "jp_grammar": [],
+    "tts_text": "目標を上回って、売り上げたいね。",
+    "vi": "Muốn bán đạt mức vượt chỉ tiêu.",
+    "vi_phrase": [
+      [
+        5,
+        12
+      ],
+      [
+        17,
+        21
+      ]
+    ],
+    "vi_grammar": [],
+    "en": "I want us to exceed the target and rack up sales.",
+    "en_phrase": [
+      [
+        13,
+        19
+      ],
+      [
+        35,
+        48
+      ]
+    ],
+    "en_grammar": []
+  },
+  {
+    "idx": 13,
+    "scene": "場面: 営業部で田中課長と鈴木さんが新商品の売り出しと物流を確認",
+    "speaker": "鈴木",
+    "voice": "ja-JP-NanamiNeural",
+    "jp": "在庫さえあれば、すぐ売り切れるはずです。売り切れが続いています。",
+    "jp_html": "<ruby>在庫<rt>ざいこ</rt></ruby><span class=\"grammar\">さえあれば</span>、すぐ<span class=\"phrase\"><ruby>売<rt>う</rt></ruby>り<ruby>切<rt>き</rt></ruby>れる</span>はずです。<span class=\"phrase\"><ruby>売<rt>う</rt></ruby>り<ruby>切<rt>き</rt></ruby>れ</span>が<ruby>続<rt>つづ</rt></ruby>いています。",
+    "jp_phrase": [
+      [
+        10,
+        15
+      ],
+      [
+        20,
+        24
+      ]
+    ],
+    "jp_grammar": [
+      [
+        2,
+        7
+      ]
+    ],
+    "tts_text": "在庫さえあれば、すぐ売り切れるはずです。売り切れが続いています。",
+    "vi": "Chỉ cần có hàng là sẽ bán hết. Đang bị cháy hàng liên tục.",
+    "vi_phrase": [
+      [
+        22,
+        29
+      ],
+      [
+        39,
+        48
+      ]
+    ],
+    "vi_grammar": [
+      [
+        0,
+        7
+      ]
+    ],
+    "en": "If only we have stock, it should sell out. We are constantly sold out.",
+    "en_phrase": [
+      [
+        33,
+        41
+      ],
+      [
+        61,
+        69
+      ]
+    ],
+    "en_grammar": [
+      [
+        0,
+        7
+      ]
+    ]
+  },
+  {
+    "idx": 14,
+    "scene": "場面: 営業部で田中課長と鈴木さんが新商品の売り出しと物流を確認",
+    "speaker": "田中",
+    "voice": "ja-JP-KeitaNeural",
+    "jp": "前のキャンペーンを打ち切って以来、新規の打ち切りは慎重にしよう。",
+    "jp_html": "<ruby>前<rt>まえ</rt></ruby>のキャンペーンを<span class=\"phrase\"><ruby>打<rt>う</rt></ruby>ち<ruby>切<rt>き</rt></ruby>って</span><span class=\"grammar\"><ruby>以来<rt>いらい</rt></ruby></span>、<ruby>新規<rt>しんき</rt></ruby>の<span class=\"phrase\"><ruby>打<rt>う</rt></ruby>ち<ruby>切<rt>き</rt></ruby>り</span>は<ruby>慎重<rt>しんちょう</rt></ruby>にしよう。",
+    "jp_phrase": [
+      [
+        9,
+        14
+      ],
+      [
+        20,
+        24
+      ]
+    ],
+    "jp_grammar": [
+      [
+        14,
+        16
+      ]
+    ],
+    "tts_text": "前のキャンペーンを打ち切って以来、新規の打ち切りは慎重にしよう。",
+    "vi": "Từ khi dừng campaign trước, việc ngưng mới phải thận trọng.",
+    "vi_phrase": [
+      [
+        7,
+        11
+      ],
+      [
+        33,
+        38
+      ]
+    ],
+    "vi_grammar": [
+      [
+        0,
+        6
+      ]
+    ],
+    "en": "Since we discontinued the last campaign, any new cancellation should be careful.",
+    "en_phrase": [
+      [
+        9,
+        21
+      ],
+      [
+        49,
+        61
+      ]
+    ],
+    "en_grammar": [
+      [
+        0,
+        5
+      ]
+    ]
+  },
+  {
+    "idx": 15,
+    "scene": "場面: 営業部で田中課長と鈴木さんが新商品の売り出しと物流を確認",
+    "speaker": "鈴木",
+    "voice": "ja-JP-NanamiNeural",
+    "jp": "内金の有無も、先方に確認します。",
+    "jp_html": "<span class=\"phrase\"><ruby>内金<rt>うちきん</rt></ruby></span>の<span class=\"phrase\"><ruby>有無<rt>うむ</rt></ruby></span>も、<ruby>先方<rt>せんぽう</rt></ruby>に<ruby>確認<rt>かくにん</rt></ruby>します。",
+    "jp_phrase": [
+      [
+        0,
+        2
+      ],
+      [
+        3,
+        5
+      ]
+    ],
+    "jp_grammar": [],
+    "tts_text": "内金の有無も、先方に確認します。",
+    "vi": "Em sẽ hỏi bên kia có hay không tiền đặt cọc.",
+    "vi_phrase": [
+      [
+        18,
+        30
+      ],
+      [
+        31,
+        43
+      ]
+    ],
+    "vi_grammar": [],
+    "en": "I will also check whether there is a down payment.",
+    "en_phrase": [
+      [
+        18,
+        34
+      ],
+      [
+        37,
+        49
+      ]
+    ],
+    "en_grammar": []
+  },
+  {
+    "idx": 16,
+    "scene": "場面: 営業部で田中課長と鈴木さんが新商品の売り出しと物流を確認",
+    "speaker": "田中",
+    "voice": "ja-JP-KeitaNeural",
+    "jp": "遅延の埋め合わせは、サービスで埋め合わせてくれ。",
+    "jp_html": "<ruby>遅延<rt>ちえん</rt></ruby>の<span class=\"phrase\"><ruby>埋<rt>う</rt></ruby>め<ruby>合<rt>あ</rt></ruby>わせ</span>は、サービスで<span class=\"phrase\"><ruby>埋<rt>う</rt></ruby>め<ruby>合<rt>あ</rt></ruby>わせて</span>くれ。",
+    "jp_phrase": [
+      [
+        3,
+        8
+      ],
+      [
+        15,
+        21
+      ]
+    ],
+    "jp_grammar": [],
+    "tts_text": "遅延の埋め合わせは、サービスで埋め合わせてくれ。",
+    "vi": "Phần bù đắp chậm trễ, hãy bù bằng dịch vụ.",
+    "vi_phrase": [
+      [
+        5,
+        11
+      ],
+      [
+        26,
+        28
+      ]
+    ],
+    "vi_grammar": [],
+    "en": "Please make up for the delay with a service offset.",
+    "en_phrase": [
+      [
+        7,
+        14
+      ],
+      [
+        44,
+        50
+      ]
+    ],
+    "en_grammar": []
+  },
+  {
+    "idx": 17,
+    "scene": "場面: 営業部で田中課長と鈴木さんが新商品の売り出しと物流を確認",
+    "speaker": "鈴木",
+    "voice": "ja-JP-NanamiNeural",
+    "jp": "見積は裏紙ではなく、ファイルを上書きして共有します。",
+    "jp_html": "<ruby>見積<rt>みつもり</rt></ruby>は<span class=\"phrase\"><ruby>裏紙<rt>うらがみ</rt></ruby></span>ではなく、ファイルを<span class=\"phrase\"><ruby>上書<rt>うわが</rt></ruby>き</span>して<ruby>共有<rt>きょうゆう</rt></ruby>します。",
+    "jp_phrase": [
+      [
+        3,
+        5
+      ],
+      [
+        15,
+        18
+      ]
+    ],
+    "jp_grammar": [],
+    "tts_text": "見積は裏紙ではなく、ファイルを上書きして共有します。",
+    "vi": "Báo giá không in mặt sau giấy, em sẽ ghi đè file rồi chia sẻ.",
+    "vi_phrase": [
+      [
+        17,
+        29
+      ],
+      [
+        37,
+        43
+      ]
+    ],
+    "vi_grammar": [],
+    "en": "Do not use the back of the paper for the quote; I will overwrite the file and share it.",
+    "en_phrase": [
+      [
+        15,
+        32
+      ],
+      [
+        55,
+        64
+      ]
+    ],
+    "en_grammar": []
+  },
+  {
+    "idx": 18,
+    "scene": "場面: 営業部で田中課長と鈴木さんが新商品の売り出しと物流を確認",
+    "speaker": "田中",
+    "voice": "ja-JP-KeitaNeural",
+    "jp": "運送と運賃の見直しも頼む。",
+    "jp_html": "<span class=\"phrase\"><ruby>運送<rt>うんそう</rt></ruby></span>と<span class=\"phrase\"><ruby>運賃<rt>うんちん</rt></ruby></span>の<ruby>見直<rt>みなお</rt></ruby>しも<ruby>頼<rt>たの</rt></ruby>む。",
+    "jp_phrase": [
+      [
+        0,
+        2
+      ],
+      [
+        3,
+        5
+      ]
+    ],
+    "jp_grammar": [],
+    "tts_text": "運送と運賃の見直しも頼む。",
+    "vi": "Nhờ xem lại cả vận chuyển và cước phí.",
+    "vi_phrase": [
+      [
+        15,
+        25
+      ],
+      [
+        29,
+        37
+      ]
+    ],
+    "vi_grammar": [],
+    "en": "Please also review shipping and freight.",
+    "en_phrase": [
+      [
+        19,
+        27
+      ],
+      [
+        32,
+        39
+      ]
+    ],
+    "en_grammar": []
+  },
+  {
+    "idx": 19,
+    "scene": "場面: 営業部で田中課長と鈴木さんが新商品の売り出しと物流を確認",
+    "speaker": "鈴木",
+    "voice": "ja-JP-NanamiNeural",
+    "jp": "運搬時はエアークッションを厚くします。",
+    "jp_html": "<span class=\"phrase\"><ruby>運搬<rt>うんぱん</rt></ruby></span><ruby>時<rt>じ</rt></ruby>は<span class=\"phrase\">エアークッション</span>を<ruby>厚<rt>あつ</rt></ruby>くします。",
+    "jp_phrase": [
+      [
+        0,
+        2
+      ],
+      [
+        4,
+        12
+      ]
+    ],
+    "jp_grammar": [],
+    "tts_text": "運搬時はエアークッションを厚くします。",
+    "vi": "Khi chuyên chở, em sẽ lót dày bóng khí.",
+    "vi_phrase": [
+      [
+        4,
+        14
+      ],
+      [
+        30,
+        38
+      ]
+    ],
+    "vi_grammar": [],
+    "en": "When transporting, I will use thicker bubble wrap.",
+    "en_phrase": [
+      [
+        5,
+        17
+      ],
+      [
+        38,
+        49
+      ]
+    ],
+    "en_grammar": []
+  },
+  {
+    "idx": 20,
+    "scene": "場面: 営業部で田中課長と鈴木さんが新商品の売り出しと物流を確認",
+    "speaker": "田中",
+    "voice": "ja-JP-KeitaNeural",
+    "jp": "在庫の運営と資金の運用、できれば見直していただきたいんですが。",
+    "jp_html": "<ruby>在庫<rt>ざいこ</rt></ruby>の<span class=\"phrase\"><ruby>運営<rt>うんえい</rt></ruby></span>と<ruby>資金<rt>しきん</rt></ruby>の<span class=\"phrase\"><ruby>運用<rt>うんよう</rt></ruby></span>、<span class=\"grammar\">できれば<ruby>見直<rt>みなお</rt></ruby>していただきたいんですが</span>。",
+    "jp_phrase": [
+      [
+        3,
+        5
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "jp_grammar": [
+      [
+        12,
+        30
+      ]
+    ],
+    "tts_text": "在庫の運営と資金の運用、できれば見直していただきたいんですが。",
+    "vi": "Nếu được, anh muốn nhờ xem lại vận hành kho và vận dụng vốn.",
+    "vi_phrase": [
+      [
+        31,
+        39
+      ],
+      [
+        47,
+        55
+      ]
+    ],
+    "vi_grammar": [
+      [
+        0,
+        22
+      ]
+    ],
+    "en": "If possible, I would like you to review inventory operations and fund management.",
+    "en_phrase": [
+      [
+        50,
+        60
+      ],
+      [
+        70,
+        80
+      ]
+    ],
+    "en_grammar": [
+      [
+        0,
+        32
+      ]
+    ]
+  },
+  {
+    "idx": 21,
+    "scene": "場面: 営業部で田中課長と鈴木さんが新商品の売り出しと物流を確認",
+    "speaker": "鈴木",
+    "voice": "ja-JP-NanamiNeural",
+    "jp": "ATMの手数料のこととなると、M&Aの話まで出ています。",
+    "jp_html": "<span class=\"phrase\">ATM</span>の<ruby>手数料<rt>てすうりょう</rt></ruby><span class=\"grammar\">のこととなると</span>、<span class=\"phrase\">M&amp;A</span>の<ruby>話<rt>はなし</rt></ruby>まで<ruby>出<rt>で</rt></ruby>ています。",
+    "jp_phrase": [
+      [
+        0,
+        3
+      ],
+      [
+        15,
+        18
+      ]
+    ],
+    "jp_grammar": [
+      [
+        7,
+        14
+      ]
+    ],
+    "tts_text": "ATMの手数料のこととなると、M&Aの話まで出ています。",
+    "vi": "Hễ đụng đến phí ATM là lại bàn cả chuyện M&A.",
+    "vi_phrase": [
+      [
+        16,
+        19
+      ],
+      [
+        41,
+        44
+      ]
+    ],
+    "vi_grammar": [
+      [
+        0,
+        11
+      ]
+    ],
+    "en": "When it comes to ATM fees, even M&A comes up.",
+    "en_phrase": [
+      [
+        17,
+        20
+      ],
+      [
+        32,
+        35
+      ]
+    ],
+    "en_grammar": [
+      [
+        0,
+        16
+      ]
+    ]
+  },
+  {
+    "idx": 22,
+    "scene": "場面: 営業部で田中課長と鈴木さんが新商品の売り出しと物流を確認",
+    "speaker": "田中",
+    "voice": "ja-JP-KeitaNeural",
+    "jp": "宴会は今延期するところだ。売主との調整を先にしよう。",
+    "jp_html": "<span class=\"phrase\"><ruby>宴会<rt>えんかい</rt></ruby></span>は<ruby>今<rt>いま</rt></ruby><span class=\"phrase\"><ruby>延期<rt>えんき</rt></ruby></span>する<span class=\"grammar\">ところ</span>だ。<span class=\"phrase\"><ruby>売主<rt>うりぬし</rt></ruby></span>との<ruby>調整<rt>ちょうせい</rt></ruby>を<ruby>先<rt>さき</rt></ruby>にしよう。",
+    "jp_phrase": [
+      [
+        0,
+        2
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        13,
+        15
+      ]
+    ],
+    "jp_grammar": [
+      [
+        8,
+        11
+      ]
+    ],
+    "tts_text": "宴会は今延期するところだ。売主との調整を先にしよう。",
+    "vi": "Tiệc liên hoan đang sắp hoãn. Ưu tiên chỉnh với bên bán.",
+    "vi_phrase": [
+      [
+        5,
+        14
+      ],
+      [
+        24,
+        28
+      ],
+      [
+        48,
+        55
+      ]
+    ],
+    "vi_grammar": [
+      [
+        20,
+        23
+      ]
+    ],
+    "en": "We are just about to postpone the party. Let's align with the seller first.",
+    "en_phrase": [
+      [
+        21,
+        29
+      ],
+      [
+        34,
+        39
+      ],
+      [
+        62,
+        68
+      ]
+    ],
+    "en_grammar": [
+      [
+        7,
+        20
+      ]
+    ]
+  },
+  {
+    "idx": 23,
+    "scene": "場面: 営業部で田中課長と鈴木さんが新商品の売り出しと物流を確認",
+    "speaker": "鈴木",
+    "voice": "ja-JP-NanamiNeural",
+    "jp": "手続きの円滑さといい、スピードといい、延滞を防ぐため延長申請も必要です。",
+    "jp_html": "<ruby>手続<rt>てつづ</rt></ruby>きの<span class=\"phrase\"><ruby>円滑<rt>えんかつ</rt></ruby></span>さ<span class=\"grammar\">といい、スピードといい</span>、<span class=\"phrase\"><ruby>延滞<rt>えんたい</rt></ruby></span>を<ruby>防<rt>ふせ</rt></ruby>ぐため<span class=\"phrase\"><ruby>延長<rt>えんちょう</rt></ruby></span><ruby>申請<rt>しんせい</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>です。",
+    "jp_phrase": [
+      [
+        4,
+        6
+      ],
+      [
+        19,
+        21
+      ],
+      [
+        26,
+        28
+      ]
+    ],
+    "jp_grammar": [
+      [
+        7,
+        18
+      ]
+    ],
+    "tts_text": "手続きの円滑さといい、スピードといい、延滞を防ぐため延長申請も必要です。",
+    "vi": "Thủ tục suôn sẻ cũng tốt, tốc độ cũng tốt, để tránh chậm nộp còn cần xin gia hạn.",
+    "vi_phrase": [
+      [
+        8,
+        15
+      ],
+      [
+        52,
+        60
+      ],
+      [
+        73,
+        80
+      ]
+    ],
+    "vi_grammar": [
+      [
+        16,
+        41
+      ]
+    ],
+    "en": "Smoother procedures are good, and so is speed; we also need an extension to prevent arrears.",
+    "en_phrase": [
+      [
+        0,
+        8
+      ],
+      [
+        63,
+        72
+      ],
+      [
+        84,
+        91
+      ]
+    ],
+    "en_grammar": [
+      [
+        20,
+        45
+      ]
+    ]
+  },
+  {
+    "idx": 24,
+    "scene": "場面: 営業部で田中課長と鈴木さんが新商品の売り出しと物流を確認",
+    "speaker": "田中",
+    "voice": "ja-JP-KeitaNeural",
+    "jp": "演台の延長コードでも確認して。円高と円安、どちらも気になる限りだ。",
+    "jp_html": "<span class=\"phrase\"><ruby>演台<rt>えんだい</rt></ruby></span>の<span class=\"phrase\"><ruby>延長<rt>えんちょう</rt></ruby>コード</span><span class=\"grammar\">でも</span><ruby>確認<rt>かくにん</rt></ruby>して。<span class=\"phrase\"><ruby>円高<rt>えんだか</rt></ruby></span>と<span class=\"phrase\"><ruby>円安<rt>えんやす</rt></ruby></span>、どちらも<ruby>気<rt>き</rt></ruby>になる<span class=\"grammar\"><ruby>限<rt>かぎ</rt></ruby>りだ</span>。",
+    "jp_phrase": [
+      [
+        0,
+        2
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        18,
+        20
+      ]
+    ],
+    "jp_grammar": [
+      [
+        8,
+        10
+      ],
+      [
+        29,
+        32
+      ]
+    ],
+    "tts_text": "演台の延長コードでも確認して。円高と円安、どちらも気になる限りだ。",
+    "vi": "Kiểm tra luôn dây nối bục phát biểu cũng được. Yên tăng hay yên giảm đều khiến anh rất bận tâm.",
+    "vi_phrase": [
+      [
+        14,
+        21
+      ],
+      [
+        22,
+        35
+      ],
+      [
+        47,
+        55
+      ],
+      [
+        60,
+        68
+      ]
+    ],
+    "vi_grammar": [
+      [
+        36,
+        45
+      ],
+      [
+        83,
+        94
+      ]
+    ],
+    "en": "Please also check the podium extension cord. Both a strong yen and a weak yen really worry me.",
+    "en_phrase": [
+      [
+        22,
+        28
+      ],
+      [
+        29,
+        43
+      ],
+      [
+        52,
+        62
+      ],
+      [
+        69,
+        77
+      ]
+    ],
+    "en_grammar": [
+      [
+        78,
+        93
+      ]
+    ]
+  }
+]
