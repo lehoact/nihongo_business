@@ -52,12 +52,12 @@ The source can be any of:
 4. **Add Vietnamese translation toggle.**
    - Put each translation in `<div class="vi">...</div>`.
    - Wrap the VI equivalent of the target expression in `<span class="vi-phrase">...</span>`.
-   - Style `.phrase` / `.vi-phrase` in red (`#c62828`) with a light-red background.
+   - Style `.phrase` / `.vi-phrase` in red (`#c62828`) only — no background box.
    - Keep translations natural Vietnamese, not word-by-word.
 
 5. **(Optional) Overlay BJT grammar patterns.**
    - When the user asks to lồng ghép ngữ pháp, add `class="grammar"` (JP) and `class="vi-grammar"` (VI) spans.
-   - Style grammar in **blue** (`#1a73e8`) with a light-blue background so it clearly differs from red vocabulary.
+   - Style grammar in **blue** (`#1a73e8`) only — no background box.
    - Include a legend near the header explaining both colors.
    - **Coverage (mandatory from bài 3):** 15 unused patterns from [grammar-coverage.md](grammar-coverage.md), PDF order. Do not reuse the bài 1/2 "greatest hits" set. Swap at most 2–3 if a pattern cannot fit the scene; take the next unused and mark the skipped one `hoãn`. After 117 are used once, pick the least-used IDs (review cycle).
    - Do **not** rebuild bài 1 or bài 2 just to change grammar.
@@ -88,9 +88,10 @@ The source can be any of:
 8. **Create video when requested.**
    - Use the shared script `tu vung/source code/build_mp4.py --lesson "bài <N>"`.
    - macOS system volume is often full. Set `TMPDIR` to `tu vung/.tmp` on `/Volumes/DATA` before PyMuPDF / edge-tts / ffmpeg. Use `/usr/local/bin/python3` (has `edge-tts`, Pillow).
-   - Slide-style MP4 (1920×1080): **two dialogue turns per slide** (田中 then 鈴木). Odd last line may stand alone.
-   - Each turn: speaker name, **JP with ルビ**, English, Vietnamese. Leave extra space under the speaker name (`sp_size * 1.55` + full ruby gap) so ルビ does not sit on the name. Separate the two turns with a divider and ~22px padding.
-   - While one speaker is talking, that turn stays full-color; the other turn is dimmed. Each clip duration is exactly that speaker's TTS (`ffprobe` + ffmpeg `-t`). Do **not** mux two MP3s onto one still image and do **not** use `-shortest` (it leaves silent video tail).
+   - Slide-style MP4 (1920×1080): **two dialogue turns per slide** (田中 then 鈴木). Odd last line may stand alone. Font sizes: JP **64**, VI **42**, EN **40**, speaker **40**.
+   - Each turn: speaker name, **JP with ルビ**, Vietnamese, English. Leave extra space under the speaker name (`sp_size * 1.55` + full ruby gap) so ルビ does not sit on the name. Separate the two turns with a divider and ~22px padding.
+   - Highlight is color only (red vocab, blue grammar). Do **not** draw a background box under highlighted words.
+   - While one speaker is talking, that turn stays full-color; the other turn is dimmed. Each clip duration is exactly that speaker's TTS (`ffprobe` + ffmpeg `-t`). Do **not** mux two MP3s onto one still image and do **not** use `-shortest` (it leaves a silent video tail).
    - Do **not** add a "Cách đọc" block. Readings appear as ruby above kanji.
    - Put English in `<div class="en">` with `en-phrase` / `en-grammar` (same red/blue highlights). Strip HTML with `html.unescape` so `M&amp;A` becomes `M&A` on slides.
    - Preserve highlight colors: red vocab, blue grammar.
@@ -109,7 +110,8 @@ The source can be any of:
    - Published titles: Bài 1 `BJT Bài 1 | Họp sáng dự án EC app: 50 từ`; Bài 2 `BJT Bài 2 | Họp sự kiện ra mắt + chuyển văn phòng: 50 từ`; Bài 3 `BJT Bài 3 | Họp bán hàng: 50 từ + kính ngữ (いたす・参る)`.
 
 10. **(Optional) Push to GitHub.**
-   - When the user asks to push, clone the target repo, create/checkout the branch (e.g. `bjt450-kotoba`), copy files into a `bai<N>/` folder, commit, and push. Requires `git_write` permission. Push only `index.html` + final MP3 + final MP4.
+   - When the user asks to push, clone the target repo, create/checkout the branch (e.g. `bjt450-kotoba`), copy files into a `bai<N>/` folder, commit, and push. Requires `git_write` permission.
+   - Default push is **source only** (no media): `index.html`, `segments.json`, `_ja.txt`, `source code/build_mp4.py`, and `skill/bjt-kaiwa-builder/*`. Do **not** push MP3/MP4 unless the user asks.
 
 11. **Clean artifacts (mandatory after a successful build).**
     - Keep only: `index.html`, final MP3, final MP4, `segments.json`, `_ja.txt`.
@@ -156,7 +158,7 @@ Run these before declaring done:
 - Open/read one generated slide to verify font rendering.
 - Verify one slide with a highlighted VI phrase preserves spaces around the red text.
 - For grammar overlay: verify one slide shows both red (vocab) and blue (grammar) highlights.
-- Verify JP slides show ルビ over kanji, no "Cách đọc" box, and an English line above Vietnamese.
+- Verify JP slides show ルビ over kanji, no "Cách đọc" box, and order JP → VI → EN with no highlight backgrounds.
 - After MP4 build, `ffprobe` to confirm video+audio duration match.
 
 ## Reference

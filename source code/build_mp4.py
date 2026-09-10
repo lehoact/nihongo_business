@@ -41,9 +41,7 @@ INK = (23, 35, 60)
 MUTED = (104, 112, 131)
 LINE_C = (231, 220, 196)
 PHRASE = (198, 40, 40)
-PHRASE_BG = (255, 242, 242)
 GRAMMAR = (26, 115, 232)
-GRAMMAR_BG = (232, 240, 254)
 SPKR_C = (31, 111, 235)
 
 PATHS: "Paths | None" = None
@@ -409,43 +407,29 @@ def wrap_tokens(draw, tokens: list[Tok], font, rt_font, max_width: int) -> list[
 
 def draw_runs_line(draw, runs, x: int, y: int, font, default_fill) -> None:
     colors = {
-        "plain": (default_fill, None),
-        "phrase": (PHRASE, PHRASE_BG),
-        "grammar": (GRAMMAR, GRAMMAR_BG),
+        "plain": default_fill,
+        "phrase": PHRASE,
+        "grammar": GRAMMAR,
     }
     for text, kind in runs:
-        fill, bg = colors.get(kind, (default_fill, None))
+        fill = colors.get(kind, default_fill)
         w, h = measure(draw, text, font)
-        if bg and text.strip():
-            pad = 4
-            draw.rounded_rectangle(
-                (x - 2, y - pad, x + w + 2, y + h + pad),
-                radius=6,
-                fill=bg,
-            )
         draw.text((x, y), text, font=font, fill=fill)
         x += w
 
 
 def draw_ruby_line(draw, tokens: list[Tok], x: int, y: int, font, rt_font, default_fill) -> None:
     colors = {
-        "plain": (default_fill, None),
-        "phrase": (PHRASE, PHRASE_BG),
-        "grammar": (GRAMMAR, GRAMMAR_BG),
+        "plain": default_fill,
+        "phrase": PHRASE,
+        "grammar": GRAMMAR,
     }
     ruby_gap = int(font.size * RUBY_GAP_RATIO)
     for tok in tokens:
-        fill, bg = colors.get(tok.kind, (default_fill, None))
+        fill = colors.get(tok.kind, default_fill)
         bw, bh = measure(draw, tok.base, font)
         rw = measure(draw, tok.reading, rt_font)[0] if tok.reading else 0
         box_w = max(bw, rw)
-        if bg and tok.base.strip():
-            pad = 4
-            draw.rounded_rectangle(
-                (x - 2, y - pad, x + box_w + 2, y + bh + pad),
-                radius=6,
-                fill=bg,
-            )
         if tok.reading:
             draw.text(
                 (x + max(0, (box_w - rw) // 2), y - ruby_gap),
@@ -474,10 +458,10 @@ def pair_segments(segments: list[dict]) -> list[list[dict]]:
 def _draw_utterance(
     draw, seg: dict, x: int, y: int, max_w: int, compact: bool, dim: bool = False
 ) -> int:
-    jp_size = 46 if compact else 58
-    en_size = 28 if compact else 36
-    vi_size = 30 if compact else 38
-    sp_size = 30 if compact else 40
+    jp_size = 64
+    en_size = 40
+    vi_size = 42
+    sp_size = 40
     jp_fill = (170, 176, 186) if dim else INK
     en_fill = (176, 182, 190) if dim else (55, 72, 92)
     vi_fill = (176, 182, 190) if dim else (57, 65, 80)
@@ -503,19 +487,6 @@ def _draw_utterance(
     draw.line((x, y, x + max_w, y), fill=LINE_C, width=2)
     y += 12
 
-    if seg.get("en"):
-        en_font = load_font(en_size)
-        if dim:
-            en_runs = [(seg["en"], "plain")]
-        else:
-            en_runs = build_runs(seg["en"], seg.get("en_phrase") or [], seg.get("en_grammar") or [])
-        en_lines = wrap_runs(draw, en_runs, en_font, max_w)
-        en_step = line_step(en_font)
-        for ln in en_lines:
-            draw_runs_line(draw, ln, x, y, en_font, en_fill)
-            y += en_step
-        y += 4
-
     vi_font = load_font(vi_size)
     if dim:
         vi_runs = [(seg["vi"], "plain")]
@@ -526,6 +497,19 @@ def _draw_utterance(
     for ln in vi_lines:
         draw_runs_line(draw, ln, x, y, vi_font, vi_fill)
         y += vi_step
+
+    if seg.get("en"):
+        y += 4
+        en_font = load_font(en_size)
+        if dim:
+            en_runs = [(seg["en"], "plain")]
+        else:
+            en_runs = build_runs(seg["en"], seg.get("en_phrase") or [], seg.get("en_grammar") or [])
+        en_lines = wrap_runs(draw, en_runs, en_font, max_w)
+        en_step = line_step(en_font)
+        for ln in en_lines:
+            draw_runs_line(draw, ln, x, y, en_font, en_fill)
+            y += en_step
     return y
 
 

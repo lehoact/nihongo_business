@@ -26,8 +26,8 @@
           <div class="speaker"><ruby>田中<rt>たなか</rt></ruby></div>
           <div>
             <div class="jp">...<span class="phrase">...</span>...<span class="grammar">...</span>...</div>
-            <div class="en">...<span class="en-phrase">...</span>...<span class="en-grammar">...</span>...</div>
             <div class="vi">...<span class="vi-phrase">...</span>...<span class="vi-grammar">...</span>...</div>
+            <div class="en">...<span class="en-phrase">...</span>...<span class="en-grammar">...</span>...</div>
           </div>
         </div>
         <!-- more .line divs -->
@@ -55,17 +55,11 @@
 
 .phrase, .vi-phrase, .en-phrase {
   color: var(--phrase);
-  background: var(--phrase-bg);
-  border-radius: 8px;
-  padding: 0 3px;
   font-weight: 850;
 }
 
 .grammar, .vi-grammar, .en-grammar {
   color: var(--grammar);
-  background: var(--grammar-bg);
-  border-radius: 8px;
-  padding: 0 3px;
   font-weight: 850;
 }
 
@@ -147,8 +141,10 @@ Source: `tai lieu ngu phap/Thaolejp_Bang chia dong tu ve dang kinh ngu.pdf`.
 - Font `/Library/Fonts/Arial Unicode.ttf` handles Japanese kanji, kana, and Vietnamese diacritics without missing-glyph boxes.
 - 行間 (line spacing) for JP, VI, and readings blocks: **1.35× font size** (baseline-to-baseline). Compute via `int(font.size * 1.35)`, not from glyph bounding boxes.
 - Video JP uses the same `<ruby>` markup as HTML: draw `rt` above each kanji unit. Do not add a "Cách đọc" footer.
-- Add `<div class="en">` with `en-phrase` / `en-grammar`. Slide order: JP (ruby) → EN → VI.
-- Speaker-name gap: after the name use `sp_size * 1.55`, then a full ruby gap before the JP line. Between two turns: ~22px + divider + ~22px.
+- Add `<div class="en">` with `en-phrase` / `en-grammar`. Slide order: JP (ruby) → VI → EN.
+- Highlight is text color only; no light-red / light-blue background boxes.
+- Speaker-name gap: after the name use `sp_size * 1.55`, then a full ruby gap before the JP line.
+- Slide fonts: JP 64, VI 42, EN 40, speaker 40. Two sentences per slide.
 - Decode entities with `html.unescape` when stripping tags (`M&amp;A` → `M&A`).
 - Sync: one clip per spoken line, ffmpeg `-t <tts_duration>`. Never `-shortest` on a looped still + concatenated pair audio.
 - After a successful `mp4` build the script deletes `tts_parts_*`, `mp4_slides_*`, and `concat.txt`. Keep `index.html` / MP3 / MP4 / `segments.json` / `_ja.txt`.
@@ -166,8 +162,8 @@ Stages can be composed:
 - `parse` — HTML → `segments.json` + `_ja.txt`
 - `tts` — one MP3 per segment via edge-tts (skips existing files)
 - `mp3` — concat per-segment MP3s via `ffmpeg -f concat -c copy`
-- `slides` — render 1920×1080 PNG per pair (2 câu/slide)
-- `mp4` — mỗi câu một clip: cùng layout 2 câu, câu đang nói đậm / câu kia mờ, duration = đúng file TTS (`-t`), rồi concat; sau đó tự `clean`
+- `slides` — render 1920×1080 PNG, **2 câu/slide**, JP 64 / VI 42 / EN 40, highlight không có nền
+- `mp4` — mỗi câu một clip, duration = đúng file TTS (`-t`), rồi concat; sau đó tự `clean`
 - `clean` — xóa `tts_parts_*`, `mp4_slides_*`, `concat.txt`
 
 Key parsing tricks:
@@ -201,7 +197,7 @@ When the user asks to push the lesson:
 - Target repo: `https://github.com/lehoact/nihongo_business.git`
 - Branch convention: `bjt<total_words>-kotoba` (e.g. `bjt450-kotoba`) — shared across bài in that vocabulary series.
 - Folder convention: `bai<N>/` at repo root.
-- Push these three files: `index.html`, `kaiwa_bai<N>_reading_edge_tokyo_multi_voice.mp3`, `kaiwa_bai<N>_reading_edge_tokyo_multi_voice.mp4`.
+- Default: source only — `bai<N>/index.html`, `bai<N>/segments.json`, `bai<N>/*_ja.txt`, `source code/build_mp4.py`, `skill/bjt-kaiwa-builder/`. Do **not** push MP3/MP4 unless asked.
 - Requires `git_write` and `full_network` permissions.
 - Commit message template: `Add BJT bai <N>: kaiwa <lines> câu (<vocab> từ vựng + <grammar> ngữ pháp)`.
 
