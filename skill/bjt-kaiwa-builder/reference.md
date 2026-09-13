@@ -122,7 +122,8 @@ Do **not** reuse the old 15 "greatest hits" for every bài. Follow [grammar-cove
 - Bài 1 and bài 2 already used: `#5,8,10,11,18,19,52,57,58,59,67,69,103,107,112` (do not rebuild).
 - `#55 ～次第` = alias of `#5`.
 - Bài 3 used: `#1,2,3,4,6,7,9,12,13,14,15,16,17,20,21`.
-- **Bài 4 next 15:** `#22,23,24,25,26,27,28,29,30,31,32,33,34,35,36`.
+- Bài 4 used: `#22,23,24,25,26,27,28,29,30,31,32,33,34,35,36`.
+- **Bài 5 next 15:** `#37,38,39,40,41,42,43,44,45,46,47,48,49,50,51`.
 - Later bài: next 15 unused IDs in PDF order. After all 117 appear once, pick least-used IDs.
 
 ## Keigo overlay (verb table, not 117)
@@ -130,7 +131,9 @@ Do **not** reuse the old 15 "greatest hits" for every bài. Follow [grammar-cove
 Source: `tai lieu ngu phap/Thaolejp_Bang chia dong tu ve dang kinh ngu.pdf`.
 
 - Supporting layer only: **3–5 pairs per bài**, no extra color, does not replace the 15 grammar IDs.
+- Ba lớp khác nhau: 丁寧語 , 謙譲語 , 尊敬語. 丁寧語 alone is not enough. 鈴木: 謙譲語 for her acts, 尊敬語 for boss/client acts.
 - Bài 3 used: 来る→参る, する→いたす, いる→おる, 見る→ご覧いただく, 確認する→ご確認ください／確認いたす. Plus 丁寧語 style (`このたび`, `でございます`).
+- Bài 4 used: 行く／聞く→伺う, 言う→申す／おっしゃる, 見る→拝見する, もらう→いただく.
 - Later bài: pick unused high-frequency pairs from the same PDF that fit the scene. Do not retrofit bài 1–2.
 
 ## Audio/Video Notes
@@ -177,7 +180,7 @@ When the user asks for title/description to upload a lesson video:
 
 - Language: Vietnamese, copy-paste ready. Title under ~70 characters.
 - Title: `BJT Bài [N] | [tình huống 4–8 chữ]: 50 từ` (add `+ kính ngữ` only if that bài has the keigo overlay).
-- Description blocks: scene one-liner → 25 câu 田中課長 × 鈴木 → 50 từ / 15 ngữ pháp → 4–8 exam words → audience → 3 study steps → `#BJT #日本語 #ビジネス日本語 #tiengNhat #JLPT`.
+- Description blocks: scene one-liner → 15~20 câu 田中課長 × 鈴木 → 50 từ / 15 ngữ pháp → 4–8 exam words → audience → 3 study steps → `#BJT #日本語 #ビジネス日本語 #tiengNhat #JLPT`.
 - Optional one series line: `📌 Series BJT 450 từ — mỗi bài 50 từ, 1 hội thoại liền mạch.`
 - **Never include:** `Website: https://thaolejp.com`, `#ThaoLeJP`, or a cross-lesson list (`Bài 1: họp sáng…` / `Bài 2: …` / `Bài 3: …`).
 - Thumbnail: `BJT [N]` + short scene + `50 từ`.
@@ -189,6 +192,7 @@ Locked titles:
 | 1 | BJT Bài 1 \| Họp sáng dự án EC app: 50 từ |
 | 2 | BJT Bài 2 \| Họp sự kiện ra mắt + chuyển văn phòng: 50 từ |
 | 3 | BJT Bài 3 \| Họp bán hàng: 50 từ + kính ngữ (いたす・参る) |
+| 4 | BJT Bài 4 \| Họp bán buôn khách lớn + triển lãm: 50 từ + kính ngữ (伺う・申す) |
 
 ## Git Push Workflow
 

@@ -35,12 +35,12 @@ The source can be any of:
 1. **Locate and extract source.**
    - Screenshots: read images in chronological order, OCR to extract expressions + meanings.
    - Vocab PDF: use PyMuPDF to extract the target bài's pages, then parse the numbered items (`01. 挨拶「あいさつ」...`).
-   - Grammar PDF: open [grammar-coverage.md](grammar-coverage.md). Take the **next 15 unused** IDs (PDF order). Bài 4 next = `#22–36`. After the lesson, write the bài number into the Used in column.
+   - Grammar PDF: open [grammar-coverage.md](grammar-coverage.md). Take the **next 15 unused** IDs (PDF order). Bài 5 next = `#37–51`. After the lesson, write the bài number into the Used in column.
 
 2. **Build one continuous kaiwa.**
    - Do not make a disconnected vocabulary list.
    - Use a realistic business scene (project kickoff, client proposal, internal meeting, product launch, morning stand-up, etc.).
-   - Target 15~25 dialogue lines; 25 is fine if needed to cover all target expressions.
+   - Ưu tiên số câu là 15~20 để mượt hơn, mạch lạc hơn. One agenda (or two tightly linked). Do not jump 6–8 topics. Only go above 20 if coverage truly cannot fit.
    - Include every target vocabulary expression exactly once when possible.
    - Wrap each target vocabulary expression with `class="phrase"`, and its VI counterpart with `class="vi-phrase"`.
 
@@ -54,6 +54,7 @@ The source can be any of:
    - Wrap the VI equivalent of the target expression in `<span class="vi-phrase">...</span>`.
    - Style `.phrase` / `.vi-phrase` in red (`#c62828`) only — no background box.
    - Keep translations natural Vietnamese, not word-by-word.
+   - Đã làm mềm cuối câu theo vai. 田中 (sếp, `よ／くれ`): *nhé, đi, đâu, đấy, rồi*. 鈴木 (cấp dưới): *ạ*; 申す → *thưa*, not bare *nói*.
 
 5. **(Optional) Overlay BJT grammar patterns.**
    - When the user asks to lồng ghép ngữ pháp, add `class="grammar"` (JP) and `class="vi-grammar"` (VI) spans.
@@ -66,11 +67,15 @@ The source can be any of:
 5b. **Overlay keigo (from bài 3).**
    - Source: `tai lieu ngu phap/Thaolejp_Bang chia dong tu ve dang kinh ngu.pdf` (irregular verbs + お/ご～ rules + 丁寧語).
    - Do **not** turn this into a third 15-item checklist or a third highlight color.
-   - Each lesson: **3–5 pairs**. 鈴木 (junior) uses 謙譲語 for her own acts and 尊敬語 when the listener/boss acts. 田中 (課長) may use ご～ください toward 鈴木; keep his intra-team よ／くれ.
+   - Tiếng Nhật cần có 3 lớp. Ba lớp khác nhau: 丁寧語 , 謙譲語 , 尊敬語
+     - **丁寧語**: 鈴木 `です／ます` (and でございます style). Not enough by itself.
+     - **謙譲語**: 鈴木 hạ mình for her own acts (伺う, 申す, 拝見する, いただく, いたす, まいる, おる, てまいります, お送りいたします…). A line that is only `ます` (`押します`, `残します`, `進めます`) is incomplete — upgrade it.
+     - **尊敬語**: when the listener / boss / client acts (おっしゃる, ご覧いただく, ご確認ください).
+   - Each lesson: **3–5 pairs**. 田中 (課長) may use ご～ください toward 鈴木; keep his intra-team よ／くれ.
    - Prefer high-frequency BJT pairs: する→いたす, 来る／行く→参る／伺う, いる→おる, 見る→ご覧いただく／拝見する, 確認する→確認いたす／ご確認ください, 言う→申す／おっしゃる, もらう→いただく.
    - 丁寧語 nouns (`このたび`, `後ほど`, `でございます`) are style, not a counted pair.
    - Skip 召す items that do not fit an office scene (`お風邪を召す`, `お風呂に召す`).
-   - Bài 3 pairs: 参る, いたす, おる, ご覧いただく, ご確認ください. Do **not** rebuild bài 1 or bài 2 for keigo.
+   - Bài 3 pairs: 参る, いたす, おる, ご覧いただく, ご確認ください. Bài 4 pairs: 伺う, 申す／おっしゃる, 拝見する, いただく. Do **not** rebuild bài 1 or bài 2 for keigo.
 
 6. **Add PDF export.**
    - Add a `Xuất PDF` button that calls `window.print()`.
@@ -103,11 +108,11 @@ The source can be any of:
 9. **YouTube title and description when requested.**
    - Write in Vietnamese, ready to copy-paste. Title under ~70 characters.
    - Title template: `BJT Bài [N] | [tình huống 4–8 chữ]: 50 từ`. Add `+ kính ngữ` only if that lesson has the keigo overlay.
-   - Description: one scene line; 25 câu 田中課長 × 鈴木; 50 từ + 15 ngữ pháp (+ kính ngữ if used); 4–8 từ hay thi; who it is for; 3 study steps; hashtags `#BJT #日本語 #ビジネス日本語 #tiengNhat #JLPT`.
+   - Description: one scene line; 15~20 câu 田中課長 × 鈴木; 50 từ + 15 ngữ pháp (+ kính ngữ if used); 4–8 từ hay thi; who it is for; 3 study steps; hashtags `#BJT #日本語 #ビジネス日本語 #tiengNhat #JLPT`.
    - Keep `📌 Series BJT 450 từ — mỗi bài 50 từ, 1 hội thoại liền mạch.` if useful.
    - **Do not include:** `Website: https://thaolejp.com`, `#ThaoLeJP`, or a list of other lessons (`Bài 1: …` / `Bài 2: …` / `Bài 3: …`).
    - Thumbnail hint: large `BJT [N]` + short scene + `50 từ`.
-   - Published titles: Bài 1 `BJT Bài 1 | Họp sáng dự án EC app: 50 từ`; Bài 2 `BJT Bài 2 | Họp sự kiện ra mắt + chuyển văn phòng: 50 từ`; Bài 3 `BJT Bài 3 | Họp bán hàng: 50 từ + kính ngữ (いたす・参る)`.
+   - Published titles: Bài 1 `BJT Bài 1 | Họp sáng dự án EC app: 50 từ`; Bài 2 `BJT Bài 2 | Họp sự kiện ra mắt + chuyển văn phòng: 50 từ`; Bài 3 `BJT Bài 3 | Họp bán hàng: 50 từ + kính ngữ (いたす・参る)`; Bài 4 `BJT Bài 4 | Họp bán buôn khách lớn + triển lãm: 50 từ + kính ngữ (伺う・申す)`.
 
 10. **(Optional) Push to GitHub.**
    - When the user asks to push, clone the target repo, create/checkout the branch (e.g. `bjt450-kotoba`), copy files into a `bai<N>/` folder, commit, and push. Requires `git_write` permission.
@@ -150,7 +155,9 @@ export TMPDIR="/Volumes/DATA/TN/2 TIENG NHAT/THAOJP/BJT/cụm từ cố định/
 
 Run these before declaring done:
 
-- `.line` count matches dialogue line count (typically 15~25).
+- `.line` count matches dialogue line count (ưu tiên 15~20).
+- 鈴木 lines include all 3 layers across the lesson: 丁寧語 + 謙譲語 (own acts) + 尊敬語 (other's acts). No junior line that is only bare `ます` for her own action.
+- VI endings match role (田中 *nhé/đi*; 鈴木 *ạ*).
 - `.phrase` count = `.vi-phrase` count = number of target vocabulary items.
 - If grammar overlay: `.grammar` count = `.vi-grammar` count = 15 assigned IDs from [grammar-coverage.md](grammar-coverage.md).
 - After a new lesson, update the Used in column for those 15 IDs.
